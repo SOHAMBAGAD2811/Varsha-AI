@@ -23,7 +23,14 @@ import {
   ChevronRight
 } from 'lucide-react'
 
-const IndiaMap = dynamic(() => import('@/components/IndiaMap'), { ssr: false })
+const IndiaMap = dynamic(() => import('@/components/IndiaMap'), {
+  ssr: false,
+  loading: () => (
+    <div className="h-full w-full min-h-[400px] bg-slate-50 flex items-center justify-center text-slate-400 text-xs font-medium border border-slate-200 rounded-xl">
+      Initializing GIS Engine...
+    </div>
+  )
+})
 
 export default function NationalOverview() {
   const [liveDistricts, setLiveDistricts] = useState<DistrictDetail[]>([])

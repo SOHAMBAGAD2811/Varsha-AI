@@ -18,7 +18,14 @@ import {
 } from 'lucide-react'
 import NDMABulletinModal from '@/components/NDMABulletinModal'
 
-const IndiaMap = dynamic(() => import('@/components/IndiaMap'), { ssr: false })
+const IndiaMap = dynamic(() => import('@/components/IndiaMap'), {
+  ssr: false,
+  loading: () => (
+    <div className="h-full w-full min-h-[480px] bg-slate-50 flex items-center justify-center text-slate-400 text-xs font-medium border border-slate-200 rounded-xl">
+      Initializing GeoMap Explorer...
+    </div>
+  )
+})
 
 const LAYERS = [
   { key: 'varsh',           label: 'Varsh-AI AI Corrected',     desc: 'Regime-aware post-processed precipitation' },
