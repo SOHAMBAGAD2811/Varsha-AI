@@ -1,0 +1,99 @@
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 40% 98%;      /* #f8fafc */
+  --foreground: 222 47% 11%;      /* #0f172a */
+  --card: 0 0% 100%;              /* #ffffff */
+  --card-foreground: 222 47% 11%; /* #0f172a */
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 195 100% 28%;        /* #005f80 - Neermalya Government Blue */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 142 76% 28%;      /* #15803d - Government Forest Green */
+  --secondary-foreground: 0 0% 100%;
+  --muted: 210 40% 96.1%;         /* #f1f5f9 */
+  --muted-foreground: 215 16% 47%;/* #64748b */
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 214 32% 91%;          /* #e2e8f0 */
+  --input: 214 32% 91%;
+  --ring: 195 100% 28%;
+  --radius: 0.75rem;
+
+  --government-blue: #005f80;
+  --government-green: #15803d;
+  --government-gold: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Card & Surface utilities */
+.gov-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+.gov-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Neermalya Hero Gradient */
+.gov-gradient {
+  background: linear-gradient(135deg, #005f80 0%, #007799 50%, #0f766e 100%);
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  background: #eef2f6 !important;
+  border-radius: 0.75rem;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15) !important;
+  color: #0f172a !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+
+/* Custom Marker Pin from Neermalya */
+.gov-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2.5px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease;
+}
+
+.gov-marker:hover {
+  transform: scale(1.2);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }

@@ -1,0 +1,130 @@
+# ==========================================
+# Varsh-AI — Root .gitignore
+# ==========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# Pytest / Coverage / Profiling
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# PyTorch / TensorBoard / Model Checkpoints
+*.pth
+*.pt
+*.onnx
+runs/
+lightning_logs/
+
+# --- Node / Next.js ---
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+.turbo/
+frontend/.turbo/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager lockfile caches & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# --- Environment & Secret Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# --- Operating System & IDEs ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- Large Raw Temporary Datasets ---
+# Exclude raw downloaded NetCDF rasters if ingested locally
+backend/data/*.nc
+backend/data/*.nc4
+backend/data/*.grb
+backend/data/*.grib2
+backend/data/raw/
+backend/data/downloads/
+
+# Keep essential models and processed JSON/GeoJSON caches
+!backend/data/districts_all_data.json
+!backend/data/district_data.json
+!backend/data/india_districts_simplified.geojson
+!backend/data/verification_results.json
+!backend/data/baseline_results.json
+!backend/data/lead_time_results.json
+!backend/data/metadata.json
+!backend/data/seasonal_validation_report.json
+!backend/data/*.npz
+
+# Logs & PID files
+*.log
+*.pid
+.system_generated/

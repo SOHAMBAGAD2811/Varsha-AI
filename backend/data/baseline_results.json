@@ -1,0 +1,384 @@
+{
+  "label": "baseline_ladder_validation",
+  "n_days": 366,
+  "n_gridpoints": 6373890,
+  "ladder_order": [
+    "raw_nwp",
+    "decaying_avg",
+    "global_qdm",
+    "global_emos",
+    "varsh_ai"
+  ],
+  "models": {
+    "raw_nwp": {
+      "continuous": {
+        "rmse": 3.299,
+        "mae": 0.556,
+        "bias": 0.0641,
+        "corr": 0.8475,
+        "wet_bias": 0.0391,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8746,
+        "far": 0.4272,
+        "csi": 0.5293,
+        "ets": 0.5039,
+        "hits": 309367,
+        "misses": 44342,
+        "false_alarms": 230746,
+        "correct_neg": 5789435
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7675,
+        "far": 0.1616,
+        "csi": 0.6686,
+        "ets": 0.6634,
+        "hits": 94541,
+        "misses": 28638,
+        "false_alarms": 18224,
+        "correct_neg": 6232487
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.426,
+        "far": 0.2844,
+        "csi": 0.3643,
+        "ets": 0.3637,
+        "hits": 5085,
+        "misses": 6853,
+        "false_alarms": 2021,
+        "correct_neg": 6359931
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3878,
+        "far": 0.3396,
+        "csi": 0.3233,
+        "ets": 0.3232,
+        "hits": 883,
+        "misses": 1394,
+        "false_alarms": 454,
+        "correct_neg": 6371159
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3333,
+        "far": 0.425,
+        "csi": 0.2674,
+        "ets": 0.2674,
+        "hits": 69,
+        "misses": 138,
+        "false_alarms": 51,
+        "correct_neg": 6373632
+      },
+      "fss_100km_heavy": 0.7242
+    },
+    "decaying_avg": {
+      "continuous": {
+        "rmse": 3.2911,
+        "mae": 0.5827,
+        "bias": 0.0931,
+        "corr": 0.8483,
+        "wet_bias": 0.1447,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8759,
+        "far": 0.4171,
+        "csi": 0.5384,
+        "ets": 0.5135,
+        "hits": 309818,
+        "misses": 43891,
+        "false_alarms": 221699,
+        "correct_neg": 5798482
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7678,
+        "far": 0.1644,
+        "csi": 0.667,
+        "ets": 0.6618,
+        "hits": 94571,
+        "misses": 28608,
+        "false_alarms": 18602,
+        "correct_neg": 6232109
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.4273,
+        "far": 0.2841,
+        "csi": 0.3653,
+        "ets": 0.3647,
+        "hits": 5101,
+        "misses": 6837,
+        "false_alarms": 2024,
+        "correct_neg": 6359928
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3882,
+        "far": 0.3393,
+        "csi": 0.3237,
+        "ets": 0.3236,
+        "hits": 884,
+        "misses": 1393,
+        "false_alarms": 454,
+        "correct_neg": 6371159
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3333,
+        "far": 0.425,
+        "csi": 0.2674,
+        "ets": 0.2674,
+        "hits": 69,
+        "misses": 138,
+        "false_alarms": 51,
+        "correct_neg": 6373632
+      },
+      "fss_100km_heavy": 0.7248
+    },
+    "global_qdm": {
+      "continuous": {
+        "rmse": 3.37,
+        "mae": 0.5771,
+        "bias": 0.0087,
+        "corr": 0.8401,
+        "wet_bias": 0.0382,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8539,
+        "far": 0.4034,
+        "csi": 0.5413,
+        "ets": 0.517,
+        "hits": 302027,
+        "misses": 51682,
+        "false_alarms": 204242,
+        "correct_neg": 5815939
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.706,
+        "far": 0.1777,
+        "csi": 0.6126,
+        "ets": 0.6069,
+        "hits": 86970,
+        "misses": 36209,
+        "false_alarms": 18796,
+        "correct_neg": 6231915
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.4289,
+        "far": 0.285,
+        "csi": 0.3663,
+        "ets": 0.3657,
+        "hits": 5120,
+        "misses": 6818,
+        "false_alarms": 2041,
+        "correct_neg": 6359911
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3895,
+        "far": 0.3351,
+        "csi": 0.3256,
+        "ets": 0.3255,
+        "hits": 887,
+        "misses": 1390,
+        "false_alarms": 447,
+        "correct_neg": 6371166
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3816,
+        "far": 0.4476,
+        "csi": 0.2915,
+        "ets": 0.2915,
+        "hits": 79,
+        "misses": 128,
+        "false_alarms": 64,
+        "correct_neg": 6373619
+      },
+      "fss_100km_heavy": 0.6266
+    },
+    "global_emos": {
+      "continuous": {
+        "rmse": 3.3107,
+        "mae": 0.5605,
+        "bias": 0.001,
+        "corr": 0.846,
+        "wet_bias": 0.0372,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8552,
+        "far": 0.4188,
+        "csi": 0.5291,
+        "ets": 0.5041,
+        "hits": 302490,
+        "misses": 51219,
+        "false_alarms": 217972,
+        "correct_neg": 5802209
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7258,
+        "far": 0.1521,
+        "csi": 0.6422,
+        "ets": 0.6369,
+        "hits": 89401,
+        "misses": 33778,
+        "false_alarms": 16038,
+        "correct_neg": 6234673
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.3991,
+        "far": 0.253,
+        "csi": 0.3516,
+        "ets": 0.351,
+        "hits": 4765,
+        "misses": 7173,
+        "false_alarms": 1614,
+        "correct_neg": 6360338
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3628,
+        "far": 0.3041,
+        "csi": 0.3131,
+        "ets": 0.313,
+        "hits": 826,
+        "misses": 1451,
+        "false_alarms": 361,
+        "correct_neg": 6371252
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3188,
+        "far": 0.2826,
+        "csi": 0.2833,
+        "ets": 0.2833,
+        "hits": 66,
+        "misses": 141,
+        "false_alarms": 26,
+        "correct_neg": 6373657
+      },
+      "fss_100km_heavy": 0.6811
+    },
+    "varsh_ai": {
+      "continuous": {
+        "rmse": 3.964,
+        "mae": 0.5895,
+        "bias": 0.1643,
+        "corr": 0.8116,
+        "wet_bias": 0.0317,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.876,
+        "far": 0.3068,
+        "csi": 0.6313,
+        "ets": 0.6116,
+        "hits": 309836,
+        "misses": 43873,
+        "false_alarms": 137104,
+        "correct_neg": 5883077
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7975,
+        "far": 0.2632,
+        "csi": 0.6207,
+        "ets": 0.6144,
+        "hits": 98237,
+        "misses": 24942,
+        "false_alarms": 35098,
+        "correct_neg": 6215613
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.5379,
+        "far": 0.5041,
+        "csi": 0.3478,
+        "ets": 0.3469,
+        "hits": 6422,
+        "misses": 5516,
+        "false_alarms": 6527,
+        "correct_neg": 6355425
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.5033,
+        "far": 0.5754,
+        "csi": 0.2992,
+        "ets": 0.299,
+        "hits": 1146,
+        "misses": 1131,
+        "false_alarms": 1553,
+        "correct_neg": 6370060
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.4444,
+        "far": 0.7514,
+        "csi": 0.1897,
+        "ets": 0.1897,
+        "hits": 92,
+        "misses": 115,
+        "false_alarms": 278,
+        "correct_neg": 6373405
+      },
+      "fss_100km_heavy": 0.6822
+    }
+  },
+  "model_params": {
+    "decaying_average": {
+      "w": 0.05,
+      "final_bias": 0.0
+    },
+    "emos": {
+      "a": -0.08892920588756034,
+      "b": 1.0097971996842545,
+      "sigma": 0.40487839285333715
+    },
+    "global_qdm": {
+      "n_quantiles": 100
+    }
+  },
+  "data_source": "IMD Gridded Daily Rainfall 0.25 deg (2021-2025)"
+}

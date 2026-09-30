@@ -1,0 +1,4352 @@
+[
+  {
+    "district_id": 0,
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 9.4,
+    "qdm_mm": 11.3,
+    "varsh_mm": 14.2,
+    "obs_mm": 14.7,
+    "p_light": 0.19,
+    "p_heavy": 0.048,
+    "p_very_heavy": 0.017,
+    "lat": 19.076,
+    "lon": 72.878,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 25.2,
+        "qdm": 31.3,
+        "varsh": 39.1,
+        "obs": 6.4
+      },
+      {
+        "day": "Day 2",
+        "nwp": 30.1,
+        "qdm": 29.6,
+        "varsh": 34.0,
+        "obs": 30.1
+      },
+      {
+        "day": "Day 3",
+        "nwp": 38.4,
+        "qdm": 36.7,
+        "varsh": 42.2,
+        "obs": 38.4
+      },
+      {
+        "day": "Day 4",
+        "nwp": 18.0,
+        "qdm": 22.2,
+        "varsh": 27.8,
+        "obs": 16.3
+      },
+      {
+        "day": "Day 5",
+        "nwp": 10.1,
+        "qdm": 12.2,
+        "varsh": 15.3,
+        "obs": 54.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 9.4,
+        "qdm": 11.3,
+        "varsh": 14.2,
+        "obs": 14.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 60.3,
+        "qdm": 75.9,
+        "varsh": 94.9,
+        "obs": 100.7
+      },
+      {
+        "day": "Day 8",
+        "nwp": 18.8,
+        "qdm": 23.4,
+        "varsh": 29.2,
+        "obs": 24.9
+      },
+      {
+        "day": "Day 9",
+        "nwp": 17.9,
+        "qdm": 18.1,
+        "varsh": 20.8,
+        "obs": 17.9
+      },
+      {
+        "day": "Day 10",
+        "nwp": 21.9,
+        "qdm": 27.8,
+        "varsh": 34.8,
+        "obs": 19.3
+      }
+    ]
+  },
+  {
+    "district_id": 1,
+    "name": "Delhi",
+    "state": "Delhi",
+    "regime": "depression",
+    "nwp_mm": 0.8,
+    "qdm_mm": 0.9,
+    "varsh_mm": 1.1,
+    "obs_mm": 3.2,
+    "p_light": 0.07,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 28.704,
+    "lon": 77.102,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.2,
+        "qdm": 0.2,
+        "varsh": 0.3,
+        "obs": 3.2
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.9,
+        "qdm": 5.6,
+        "varsh": 6.5,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 4",
+        "nwp": 41.4,
+        "qdm": 51.1,
+        "varsh": 63.9,
+        "obs": 79.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 2.9
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.8,
+        "qdm": 0.9,
+        "varsh": 1.1,
+        "obs": 3.2
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.2,
+        "qdm": 0.2,
+        "varsh": 0.2,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.4,
+        "qdm": 0.5,
+        "varsh": 0.6,
+        "obs": 1.4
+      },
+      {
+        "day": "Day 9",
+        "nwp": 5.1,
+        "qdm": 5.2,
+        "varsh": 6.0,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.2,
+        "qdm": 0.2,
+        "varsh": 0.2,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 2,
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "regime": "depression",
+    "nwp_mm": 0.6,
+    "qdm_mm": 0.7,
+    "varsh_mm": 0.9,
+    "obs_mm": 2.8,
+    "p_light": 0.092,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 12.972,
+    "lon": 77.594,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 6.5,
+        "qdm": 6.4,
+        "varsh": 7.3,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 3",
+        "nwp": 9.6,
+        "qdm": 9.2,
+        "varsh": 10.6,
+        "obs": 4.1
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 30.3
+      },
+      {
+        "day": "Day 5",
+        "nwp": 15.9,
+        "qdm": 19.3,
+        "varsh": 24.2,
+        "obs": 4.3
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.6,
+        "qdm": 0.7,
+        "varsh": 0.9,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.5,
+        "qdm": 0.6,
+        "varsh": 0.8,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 27.8,
+        "qdm": 28.1,
+        "varsh": 32.3,
+        "obs": 27.8
+      },
+      {
+        "day": "Day 10",
+        "nwp": 1.9,
+        "qdm": 2.4,
+        "varsh": 3.0,
+        "obs": 2.8
+      }
+    ]
+  },
+  {
+    "district_id": 3,
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.085,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 17.385,
+    "lon": 78.487,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.2,
+        "qdm": 0.2,
+        "varsh": 0.3,
+        "obs": 2.7
+      },
+      {
+        "day": "Day 2",
+        "nwp": 8.2,
+        "qdm": 8.1,
+        "varsh": 9.3,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.1,
+        "qdm": 5.8,
+        "varsh": 6.7,
+        "obs": 0.9
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 1.1,
+        "qdm": 1.3,
+        "varsh": 1.6,
+        "obs": 0.6
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.9
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.3
+      }
+    ]
+  },
+  {
+    "district_id": 4,
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "regime": "depression",
+    "nwp_mm": 1.0,
+    "qdm_mm": 1.2,
+    "varsh_mm": 1.5,
+    "obs_mm": 3.3,
+    "p_light": 0.062,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 23.023,
+    "lon": 72.572,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 88.8,
+        "qdm": 110.2,
+        "varsh": 137.8,
+        "obs": 3.3
+      },
+      {
+        "day": "Day 2",
+        "nwp": 25.6,
+        "qdm": 25.2,
+        "varsh": 29.0,
+        "obs": 25.6
+      },
+      {
+        "day": "Day 3",
+        "nwp": 3.2,
+        "qdm": 3.1,
+        "varsh": 3.6,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 4",
+        "nwp": 5.1,
+        "qdm": 6.3,
+        "varsh": 7.9,
+        "obs": 3.2
+      },
+      {
+        "day": "Day 5",
+        "nwp": 4.4,
+        "qdm": 5.3,
+        "varsh": 6.7,
+        "obs": 14.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 1.0,
+        "qdm": 1.2,
+        "varsh": 1.5,
+        "obs": 3.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 23.8,
+        "qdm": 30.0,
+        "varsh": 37.4,
+        "obs": 23.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 5.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 9.6,
+        "qdm": 9.7,
+        "varsh": 11.1,
+        "obs": 3.9
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.6,
+        "qdm": 0.7,
+        "varsh": 0.9,
+        "obs": 0.7
+      }
+    ]
+  },
+  {
+    "district_id": 5,
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.05,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 13.083,
+    "lon": 80.27,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 6,
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "regime": "depression",
+    "nwp_mm": 26.3,
+    "qdm_mm": 31.6,
+    "varsh_mm": 39.5,
+    "obs_mm": 35.3,
+    "p_light": 0.126,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 22.573,
+    "lon": 88.364,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 6.2,
+        "qdm": 7.7,
+        "varsh": 9.7,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 31.7,
+        "qdm": 31.2,
+        "varsh": 35.9,
+        "obs": 31.7
+      },
+      {
+        "day": "Day 3",
+        "nwp": 14.6,
+        "qdm": 14.0,
+        "varsh": 16.1,
+        "obs": 14.6
+      },
+      {
+        "day": "Day 4",
+        "nwp": 19.9,
+        "qdm": 24.6,
+        "varsh": 30.8,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 5",
+        "nwp": 51.0,
+        "qdm": 61.8,
+        "varsh": 77.3,
+        "obs": 99.8
+      },
+      {
+        "day": "Day 6",
+        "nwp": 26.3,
+        "qdm": 31.6,
+        "varsh": 39.5,
+        "obs": 35.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 1.0,
+        "qdm": 1.2,
+        "varsh": 1.6,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 1.8,
+        "qdm": 2.2,
+        "varsh": 2.7,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 19.9,
+        "qdm": 20.1,
+        "varsh": 23.1,
+        "obs": 19.9
+      },
+      {
+        "day": "Day 10",
+        "nwp": 7.2,
+        "qdm": 9.2,
+        "varsh": 11.5,
+        "obs": 1.9
+      }
+    ]
+  },
+  {
+    "district_id": 7,
+    "name": "Pune",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 48.2,
+    "qdm_mm": 58.0,
+    "varsh_mm": 72.5,
+    "obs_mm": 17.0,
+    "p_light": 0.072,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 18.52,
+    "lon": 73.856,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 9.7,
+        "qdm": 12.0,
+        "varsh": 15.0,
+        "obs": 9.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 7.5,
+        "qdm": 7.3,
+        "varsh": 8.4,
+        "obs": 7.5
+      },
+      {
+        "day": "Day 3",
+        "nwp": 29.5,
+        "qdm": 28.2,
+        "varsh": 32.5,
+        "obs": 29.5
+      },
+      {
+        "day": "Day 4",
+        "nwp": 4.4,
+        "qdm": 5.4,
+        "varsh": 6.7,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 5",
+        "nwp": 39.0,
+        "qdm": 47.4,
+        "varsh": 59.2,
+        "obs": 11.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 48.2,
+        "qdm": 58.0,
+        "varsh": 72.5,
+        "obs": 17.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 31.5,
+        "qdm": 39.7,
+        "varsh": 49.6,
+        "obs": 16.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 11.2,
+        "qdm": 13.9,
+        "varsh": 17.3,
+        "obs": 38.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 10.6,
+        "qdm": 10.7,
+        "varsh": 12.3,
+        "obs": 4.8
+      },
+      {
+        "day": "Day 10",
+        "nwp": 1.3,
+        "qdm": 1.7,
+        "varsh": 2.1,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 8,
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.05,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.913,
+    "lon": 75.788,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 84.8,
+        "qdm": 104.7,
+        "varsh": 130.9,
+        "obs": 36.7
+      },
+      {
+        "day": "Day 5",
+        "nwp": 86.2,
+        "qdm": 104.6,
+        "varsh": 130.8,
+        "obs": 45.3
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.6,
+        "qdm": 0.8,
+        "varsh": 1.0,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 8",
+        "nwp": 41.2,
+        "qdm": 51.1,
+        "varsh": 63.9,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 9",
+        "nwp": 4.3,
+        "qdm": 4.3,
+        "varsh": 5.0,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.9,
+        "qdm": 1.1,
+        "varsh": 1.4,
+        "obs": 0.9
+      }
+    ]
+  },
+  {
+    "district_id": 9,
+    "name": "Surat",
+    "state": "Gujarat",
+    "regime": "depression",
+    "nwp_mm": 9.8,
+    "qdm_mm": 11.8,
+    "varsh_mm": 14.7,
+    "obs_mm": 17.5,
+    "p_light": 0.108,
+    "p_heavy": 0.016,
+    "p_very_heavy": 0.002,
+    "lat": 21.17,
+    "lon": 72.831,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 5.8,
+        "qdm": 7.2,
+        "varsh": 9.1,
+        "obs": 4.6
+      },
+      {
+        "day": "Day 2",
+        "nwp": 39.5,
+        "qdm": 38.9,
+        "varsh": 44.7,
+        "obs": 39.5
+      },
+      {
+        "day": "Day 3",
+        "nwp": 3.2,
+        "qdm": 3.1,
+        "varsh": 3.5,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 4",
+        "nwp": 6.6,
+        "qdm": 8.1,
+        "varsh": 10.1,
+        "obs": 6.3
+      },
+      {
+        "day": "Day 5",
+        "nwp": 6.8,
+        "qdm": 8.2,
+        "varsh": 10.3,
+        "obs": 5.9
+      },
+      {
+        "day": "Day 6",
+        "nwp": 9.8,
+        "qdm": 11.8,
+        "varsh": 14.7,
+        "obs": 17.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 37.9,
+        "qdm": 47.7,
+        "varsh": 59.6,
+        "obs": 20.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 58.2,
+        "qdm": 72.3,
+        "varsh": 90.3,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 10.0,
+        "qdm": 10.1,
+        "varsh": 11.6,
+        "obs": 10.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.6,
+        "qdm": 0.8,
+        "varsh": 1.0,
+        "obs": 0.1
+      }
+    ]
+  },
+  {
+    "district_id": 10,
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 1.4,
+    "p_light": 0.091,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.847,
+    "lon": 80.946,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.6,
+        "qdm": 6.3,
+        "varsh": 7.2,
+        "obs": 0.9
+      },
+      {
+        "day": "Day 4",
+        "nwp": 26.4,
+        "qdm": 32.6,
+        "varsh": 40.8,
+        "obs": 20.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 25.2,
+        "qdm": 30.6,
+        "varsh": 38.2,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 1.4
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 9.7
+      },
+      {
+        "day": "Day 8",
+        "nwp": 13.7,
+        "qdm": 17.0,
+        "varsh": 21.2,
+        "obs": 3.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 16.4,
+        "qdm": 20.8,
+        "varsh": 26.0,
+        "obs": 27.6
+      }
+    ]
+  },
+  {
+    "district_id": 11,
+    "name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.069,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.45,
+    "lon": 80.332,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 6.3,
+        "qdm": 6.2,
+        "varsh": 7.2,
+        "obs": 6.3
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.6,
+        "qdm": 5.3,
+        "varsh": 6.1,
+        "obs": 1.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 4.0,
+        "qdm": 5.0,
+        "varsh": 6.2,
+        "obs": 10.1
+      },
+      {
+        "day": "Day 5",
+        "nwp": 13.6,
+        "qdm": 16.5,
+        "varsh": 20.6,
+        "obs": 32.2
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 2.8,
+        "qdm": 3.5,
+        "varsh": 4.4,
+        "obs": 11.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 2.8,
+        "qdm": 3.5,
+        "varsh": 4.4,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 2.2,
+        "qdm": 2.8,
+        "varsh": 3.5,
+        "obs": 6.5
+      }
+    ]
+  },
+  {
+    "district_id": 12,
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 5.7,
+    "qdm_mm": 6.9,
+    "varsh_mm": 8.6,
+    "obs_mm": 28.4,
+    "p_light": 0.111,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 21.146,
+    "lon": 79.088,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 23.3,
+        "qdm": 28.9,
+        "varsh": 36.2,
+        "obs": 6.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 7.1,
+        "qdm": 7.0,
+        "varsh": 8.1,
+        "obs": 2.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.5,
+        "qdm": 5.2,
+        "varsh": 6.0,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 4",
+        "nwp": 21.3,
+        "qdm": 26.3,
+        "varsh": 32.8,
+        "obs": 22.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 5.6,
+        "qdm": 6.8,
+        "varsh": 8.6,
+        "obs": 5.9
+      },
+      {
+        "day": "Day 6",
+        "nwp": 5.7,
+        "qdm": 6.9,
+        "varsh": 8.6,
+        "obs": 28.4
+      },
+      {
+        "day": "Day 7",
+        "nwp": 2.7,
+        "qdm": 3.4,
+        "varsh": 4.2,
+        "obs": 2.3
+      },
+      {
+        "day": "Day 8",
+        "nwp": 8.0,
+        "qdm": 10.0,
+        "varsh": 12.5,
+        "obs": 5.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 3.9,
+        "qdm": 3.9,
+        "varsh": 4.5,
+        "obs": 0.8
+      },
+      {
+        "day": "Day 10",
+        "nwp": 4.0,
+        "qdm": 5.0,
+        "varsh": 6.3,
+        "obs": 0.9
+      }
+    ]
+  },
+  {
+    "district_id": 13,
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "regime": "depression",
+    "nwp_mm": 10.1,
+    "qdm_mm": 12.1,
+    "varsh_mm": 15.1,
+    "obs_mm": 13.5,
+    "p_light": 0.084,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 22.72,
+    "lon": 75.858,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 59.5,
+        "qdm": 73.9,
+        "varsh": 92.3,
+        "obs": 61.6
+      },
+      {
+        "day": "Day 2",
+        "nwp": 6.2,
+        "qdm": 6.1,
+        "varsh": 7.0,
+        "obs": 6.2
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.7,
+        "qdm": 5.5,
+        "varsh": 6.3,
+        "obs": 0.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.6,
+        "qdm": 0.7,
+        "varsh": 0.9,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 5",
+        "nwp": 18.8,
+        "qdm": 22.9,
+        "varsh": 28.6,
+        "obs": 9.3
+      },
+      {
+        "day": "Day 6",
+        "nwp": 10.1,
+        "qdm": 12.1,
+        "varsh": 15.1,
+        "obs": 13.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 11.9,
+        "qdm": 14.9,
+        "varsh": 18.7,
+        "obs": 11.4
+      },
+      {
+        "day": "Day 8",
+        "nwp": 25.4,
+        "qdm": 31.6,
+        "varsh": 39.5,
+        "obs": 9.9
+      },
+      {
+        "day": "Day 9",
+        "nwp": 6.1,
+        "qdm": 6.1,
+        "varsh": 7.0,
+        "obs": 1.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.8,
+        "qdm": 1.1,
+        "varsh": 1.3,
+        "obs": 1.2
+      }
+    ]
+  },
+  {
+    "district_id": 14,
+    "name": "Thane",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 20.2,
+    "qdm_mm": 24.3,
+    "varsh_mm": 30.4,
+    "obs_mm": 24.9,
+    "p_light": 0.175,
+    "p_heavy": 0.034,
+    "p_very_heavy": 0.012,
+    "lat": 19.218,
+    "lon": 72.978,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 27.6,
+        "qdm": 34.2,
+        "varsh": 42.8,
+        "obs": 12.2
+      },
+      {
+        "day": "Day 2",
+        "nwp": 24.5,
+        "qdm": 24.1,
+        "varsh": 27.7,
+        "obs": 24.5
+      },
+      {
+        "day": "Day 3",
+        "nwp": 31.3,
+        "qdm": 29.9,
+        "varsh": 34.4,
+        "obs": 31.3
+      },
+      {
+        "day": "Day 4",
+        "nwp": 14.4,
+        "qdm": 17.8,
+        "varsh": 22.2,
+        "obs": 21.1
+      },
+      {
+        "day": "Day 5",
+        "nwp": 6.4,
+        "qdm": 7.8,
+        "varsh": 9.7,
+        "obs": 25.2
+      },
+      {
+        "day": "Day 6",
+        "nwp": 20.2,
+        "qdm": 24.3,
+        "varsh": 30.4,
+        "obs": 24.9
+      },
+      {
+        "day": "Day 7",
+        "nwp": 84.1,
+        "qdm": 105.9,
+        "varsh": 132.4,
+        "obs": 111.4
+      },
+      {
+        "day": "Day 8",
+        "nwp": 57.0,
+        "qdm": 70.8,
+        "varsh": 88.5,
+        "obs": 12.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 9.8,
+        "qdm": 9.9,
+        "varsh": 11.4,
+        "obs": 9.8
+      },
+      {
+        "day": "Day 10",
+        "nwp": 15.1,
+        "qdm": 19.2,
+        "varsh": 24.0,
+        "obs": 15.2
+      }
+    ]
+  },
+  {
+    "district_id": 15,
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "regime": "depression",
+    "nwp_mm": 39.1,
+    "qdm_mm": 47.1,
+    "varsh_mm": 58.9,
+    "obs_mm": 54.0,
+    "p_light": 0.108,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.002,
+    "lat": 23.259,
+    "lon": 77.413,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 25.0,
+        "qdm": 31.1,
+        "varsh": 38.8,
+        "obs": 19.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.6,
+        "qdm": 6.4,
+        "varsh": 7.3,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 7.9,
+        "qdm": 9.7,
+        "varsh": 12.2,
+        "obs": 12.7
+      },
+      {
+        "day": "Day 5",
+        "nwp": 51.2,
+        "qdm": 62.2,
+        "varsh": 77.7,
+        "obs": 84.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 39.1,
+        "qdm": 47.1,
+        "varsh": 58.9,
+        "obs": 54.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 27.0,
+        "qdm": 34.0,
+        "varsh": 42.5,
+        "obs": 38.4
+      },
+      {
+        "day": "Day 8",
+        "nwp": 14.5,
+        "qdm": 18.0,
+        "varsh": 22.5,
+        "obs": 29.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 6.0,
+        "qdm": 6.1,
+        "varsh": 7.0,
+        "obs": 0.6
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.7
+      }
+    ]
+  },
+  {
+    "district_id": 16,
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "regime": "depression",
+    "nwp_mm": 2.0,
+    "qdm_mm": 2.4,
+    "varsh_mm": 3.0,
+    "obs_mm": 2.7,
+    "p_light": 0.084,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 17.687,
+    "lon": 83.218,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 6.2,
+        "qdm": 6.1,
+        "varsh": 7.1,
+        "obs": 2.5
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 2.0,
+        "qdm": 2.4,
+        "varsh": 3.0,
+        "obs": 2.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 17,
+    "name": "Patna",
+    "state": "Bihar",
+    "regime": "depression",
+    "nwp_mm": 2.0,
+    "qdm_mm": 2.4,
+    "varsh_mm": 3.0,
+    "obs_mm": 4.5,
+    "p_light": 0.092,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 25.594,
+    "lon": 85.138,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.1,
+        "qdm": 0.1,
+        "varsh": 0.2,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 6.5,
+        "qdm": 8.0,
+        "varsh": 10.0,
+        "obs": 14.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 10.9,
+        "qdm": 13.2,
+        "varsh": 16.5,
+        "obs": 11.6
+      },
+      {
+        "day": "Day 6",
+        "nwp": 2.0,
+        "qdm": 2.4,
+        "varsh": 3.0,
+        "obs": 4.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.5,
+        "qdm": 0.6,
+        "varsh": 0.8,
+        "obs": 5.7
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.4,
+        "qdm": 0.5,
+        "varsh": 0.6,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 14.4,
+        "qdm": 14.5,
+        "varsh": 16.7,
+        "obs": 14.4
+      },
+      {
+        "day": "Day 10",
+        "nwp": 11.1,
+        "qdm": 14.1,
+        "varsh": 17.6,
+        "obs": 11.6
+      }
+    ]
+  },
+  {
+    "district_id": 18,
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "regime": "depression",
+    "nwp_mm": 3.9,
+    "qdm_mm": 4.7,
+    "varsh_mm": 5.9,
+    "obs_mm": 11.4,
+    "p_light": 0.079,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 22.31,
+    "lon": 73.181,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 8.7,
+        "qdm": 10.7,
+        "varsh": 13.4,
+        "obs": 18.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 26.8,
+        "qdm": 26.4,
+        "varsh": 30.4,
+        "obs": 26.8
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.4,
+        "qdm": 6.1,
+        "varsh": 7.0,
+        "obs": 6.4
+      },
+      {
+        "day": "Day 4",
+        "nwp": 2.7,
+        "qdm": 3.4,
+        "varsh": 4.2,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 7.4,
+        "qdm": 8.9,
+        "varsh": 11.2,
+        "obs": 4.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 3.9,
+        "qdm": 4.7,
+        "varsh": 5.9,
+        "obs": 11.4
+      },
+      {
+        "day": "Day 7",
+        "nwp": 13.2,
+        "qdm": 16.6,
+        "varsh": 20.8,
+        "obs": 17.5
+      },
+      {
+        "day": "Day 8",
+        "nwp": 8.2,
+        "qdm": 10.2,
+        "varsh": 12.8,
+        "obs": 1.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 8.3,
+        "qdm": 8.3,
+        "varsh": 9.6,
+        "obs": 3.3
+      },
+      {
+        "day": "Day 10",
+        "nwp": 9.2,
+        "qdm": 11.7,
+        "varsh": 14.7,
+        "obs": 1.5
+      }
+    ]
+  },
+  {
+    "district_id": 19,
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 1.9,
+    "qdm_mm": 2.3,
+    "varsh_mm": 2.8,
+    "obs_mm": 0.2,
+    "p_light": 0.05,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 28.669,
+    "lon": 77.454,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 46.6,
+        "qdm": 57.5,
+        "varsh": 71.8,
+        "obs": 51.7
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 1.9,
+        "qdm": 2.3,
+        "varsh": 2.8,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 3.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 20,
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "regime": "depression",
+    "nwp_mm": 3.7,
+    "qdm_mm": 4.4,
+    "varsh_mm": 5.5,
+    "obs_mm": 0.0,
+    "p_light": 0.06,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 30.901,
+    "lon": 75.857,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.6
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 7.5,
+        "qdm": 7.2,
+        "varsh": 8.2,
+        "obs": 4.7
+      },
+      {
+        "day": "Day 4",
+        "nwp": 2.7,
+        "qdm": 3.3,
+        "varsh": 4.2,
+        "obs": 4.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.4,
+        "qdm": 0.5,
+        "varsh": 0.7,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 3.7,
+        "qdm": 4.4,
+        "varsh": 5.5,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.2,
+        "qdm": 0.3,
+        "varsh": 0.3,
+        "obs": 0.7
+      }
+    ]
+  },
+  {
+    "district_id": 21,
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 2.6,
+    "qdm_mm": 3.2,
+    "varsh_mm": 4.0,
+    "obs_mm": 0.5,
+    "p_light": 0.06,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 27.177,
+    "lon": 78.008,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.9,
+        "qdm": 5.7,
+        "varsh": 6.5,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 4",
+        "nwp": 19.6,
+        "qdm": 24.2,
+        "varsh": 30.3,
+        "obs": 14.5
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.5,
+        "qdm": 0.6,
+        "varsh": 0.8,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 2.6,
+        "qdm": 3.2,
+        "varsh": 4.0,
+        "obs": 0.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 8.0,
+        "qdm": 9.9,
+        "varsh": 12.4,
+        "obs": 2.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 7.2,
+        "qdm": 7.3,
+        "varsh": 8.4,
+        "obs": 1.8
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.4
+      }
+    ]
+  },
+  {
+    "district_id": 22,
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 45.5,
+    "qdm_mm": 54.9,
+    "varsh_mm": 68.6,
+    "obs_mm": 13.7,
+    "p_light": 0.077,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 19.998,
+    "lon": 73.789,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 3.1,
+        "qdm": 3.9,
+        "varsh": 4.9,
+        "obs": 4.8
+      },
+      {
+        "day": "Day 2",
+        "nwp": 7.7,
+        "qdm": 7.6,
+        "varsh": 8.7,
+        "obs": 3.2
+      },
+      {
+        "day": "Day 3",
+        "nwp": 4.5,
+        "qdm": 4.3,
+        "varsh": 4.9,
+        "obs": 1.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 8.7,
+        "qdm": 10.8,
+        "varsh": 13.5,
+        "obs": 3.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 20.4,
+        "qdm": 24.7,
+        "varsh": 30.9,
+        "obs": 5.7
+      },
+      {
+        "day": "Day 6",
+        "nwp": 45.5,
+        "qdm": 54.9,
+        "varsh": 68.6,
+        "obs": 13.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 79.4,
+        "qdm": 99.9,
+        "varsh": 124.9,
+        "obs": 53.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 31.8,
+        "qdm": 39.5,
+        "varsh": 49.4,
+        "obs": 37.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 6.2,
+        "qdm": 6.2,
+        "varsh": 7.2,
+        "obs": 2.3
+      },
+      {
+        "day": "Day 10",
+        "nwp": 2.2,
+        "qdm": 2.8,
+        "varsh": 3.4,
+        "obs": 1.2
+      }
+    ]
+  },
+  {
+    "district_id": 23,
+    "name": "Faridabad",
+    "state": "Haryana",
+    "regime": "depression",
+    "nwp_mm": 1.3,
+    "qdm_mm": 1.5,
+    "varsh_mm": 1.9,
+    "obs_mm": 2.8,
+    "p_light": 0.06,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 28.409,
+    "lon": 77.318,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 31.8,
+        "qdm": 39.2,
+        "varsh": 49.0,
+        "obs": 75.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 2.2,
+        "qdm": 2.7,
+        "varsh": 3.3,
+        "obs": 3.8
+      },
+      {
+        "day": "Day 6",
+        "nwp": 1.3,
+        "qdm": 1.5,
+        "varsh": 1.9,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 3.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.4,
+        "qdm": 0.5,
+        "varsh": 0.6,
+        "obs": 1.1
+      }
+    ]
+  },
+  {
+    "district_id": 24,
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.064,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 28.984,
+    "lon": 77.706,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 46.4,
+        "qdm": 57.3,
+        "varsh": 71.6,
+        "obs": 14.2
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.8,
+        "qdm": 0.9,
+        "varsh": 1.2,
+        "obs": 0.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 4.7,
+        "qdm": 4.7,
+        "varsh": 5.5,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.2,
+        "qdm": 0.3,
+        "varsh": 0.3,
+        "obs": 5.3
+      }
+    ]
+  },
+  {
+    "district_id": 25,
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "regime": "depression",
+    "nwp_mm": 2.0,
+    "qdm_mm": 2.4,
+    "varsh_mm": 2.9,
+    "obs_mm": 2.5,
+    "p_light": 0.065,
+    "p_heavy": 0.011,
+    "p_very_heavy": 0.004,
+    "lat": 22.304,
+    "lon": 70.802,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 25.3,
+        "qdm": 24.9,
+        "varsh": 28.6,
+        "obs": 25.3
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.0,
+        "qdm": 4.8,
+        "varsh": 5.5,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 4",
+        "nwp": 2.2,
+        "qdm": 2.8,
+        "varsh": 3.4,
+        "obs": 4.9
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 2.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 2.0,
+        "qdm": 2.4,
+        "varsh": 2.9,
+        "obs": 2.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 2.1,
+        "qdm": 2.7,
+        "varsh": 3.4,
+        "obs": 4.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 4.9,
+        "qdm": 6.1,
+        "varsh": 7.7,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 9.0,
+        "qdm": 9.1,
+        "varsh": 10.4,
+        "obs": 3.3
+      },
+      {
+        "day": "Day 10",
+        "nwp": 1.0,
+        "qdm": 1.3,
+        "varsh": 1.6,
+        "obs": 1.8
+      }
+    ]
+  },
+  {
+    "district_id": 26,
+    "name": "Kalyan",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 19.9,
+    "qdm_mm": 24.0,
+    "varsh_mm": 30.0,
+    "obs_mm": 39.5,
+    "p_light": 0.176,
+    "p_heavy": 0.036,
+    "p_very_heavy": 0.009,
+    "lat": 19.24,
+    "lon": 73.135,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 10.2,
+        "qdm": 12.6,
+        "varsh": 15.8,
+        "obs": 11.7
+      },
+      {
+        "day": "Day 2",
+        "nwp": 21.8,
+        "qdm": 21.5,
+        "varsh": 24.7,
+        "obs": 21.8
+      },
+      {
+        "day": "Day 3",
+        "nwp": 30.9,
+        "qdm": 29.5,
+        "varsh": 34.0,
+        "obs": 30.9
+      },
+      {
+        "day": "Day 4",
+        "nwp": 35.2,
+        "qdm": 43.4,
+        "varsh": 54.2,
+        "obs": 17.2
+      },
+      {
+        "day": "Day 5",
+        "nwp": 6.3,
+        "qdm": 7.6,
+        "varsh": 9.5,
+        "obs": 20.5
+      },
+      {
+        "day": "Day 6",
+        "nwp": 19.9,
+        "qdm": 24.0,
+        "varsh": 30.0,
+        "obs": 39.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 157.4,
+        "qdm": 198.2,
+        "varsh": 247.7,
+        "obs": 117.2
+      },
+      {
+        "day": "Day 8",
+        "nwp": 96.4,
+        "qdm": 119.7,
+        "varsh": 149.6,
+        "obs": 30.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 17.4,
+        "qdm": 17.5,
+        "varsh": 20.2,
+        "obs": 17.4
+      },
+      {
+        "day": "Day 10",
+        "nwp": 30.8,
+        "qdm": 39.1,
+        "varsh": 48.9,
+        "obs": 17.4
+      }
+    ]
+  },
+  {
+    "district_id": 27,
+    "name": "Vasai",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 40.7,
+    "p_light": 0.186,
+    "p_heavy": 0.048,
+    "p_very_heavy": 0.017,
+    "lat": 19.391,
+    "lon": 72.839,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 10.3,
+        "qdm": 12.8,
+        "varsh": 16.0,
+        "obs": 7.5
+      },
+      {
+        "day": "Day 2",
+        "nwp": 20.0,
+        "qdm": 19.7,
+        "varsh": 22.6,
+        "obs": 20.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 19.8,
+        "qdm": 19.0,
+        "varsh": 21.8,
+        "obs": 19.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 2.0,
+        "qdm": 2.4,
+        "varsh": 3.0,
+        "obs": 8.7
+      },
+      {
+        "day": "Day 5",
+        "nwp": 5.7,
+        "qdm": 6.9,
+        "varsh": 8.7,
+        "obs": 8.5
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 40.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 90.6,
+        "qdm": 114.1,
+        "varsh": 142.7,
+        "obs": 73.9
+      },
+      {
+        "day": "Day 8",
+        "nwp": 11.0,
+        "qdm": 13.6,
+        "varsh": 17.1,
+        "obs": 54.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 11.4,
+        "qdm": 11.5,
+        "varsh": 13.3,
+        "obs": 11.4
+      },
+      {
+        "day": "Day 10",
+        "nwp": 15.7,
+        "qdm": 19.9,
+        "varsh": 24.9,
+        "obs": 11.6
+      }
+    ]
+  },
+  {
+    "district_id": 28,
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 7.3,
+    "qdm_mm": 8.8,
+    "varsh_mm": 11.0,
+    "obs_mm": 8.2,
+    "p_light": 0.05,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 25.318,
+    "lon": 82.974,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 25.0,
+        "qdm": 23.9,
+        "varsh": 27.4,
+        "obs": 25.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 27.3,
+        "qdm": 33.7,
+        "varsh": 42.2,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 5",
+        "nwp": 5.1,
+        "qdm": 6.2,
+        "varsh": 7.7,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 6",
+        "nwp": 7.3,
+        "qdm": 8.8,
+        "varsh": 11.0,
+        "obs": 8.2
+      },
+      {
+        "day": "Day 7",
+        "nwp": 5.3,
+        "qdm": 6.7,
+        "varsh": 8.4,
+        "obs": 5.9
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 2.3,
+        "qdm": 2.9,
+        "varsh": 3.6,
+        "obs": 0.6
+      }
+    ]
+  },
+  {
+    "district_id": 29,
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.06,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 34.084,
+    "lon": 74.797,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.2,
+        "qdm": 0.3,
+        "varsh": 0.3,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 9.5,
+        "qdm": 9.3,
+        "varsh": 10.7,
+        "obs": 4.8
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.7,
+        "qdm": 0.9,
+        "varsh": 1.1,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 2.9,
+        "qdm": 3.5,
+        "varsh": 4.3,
+        "obs": 16.7
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.9,
+        "qdm": 1.1,
+        "varsh": 1.4,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 2.9
+      },
+      {
+        "day": "Day 9",
+        "nwp": 3.4,
+        "qdm": 3.4,
+        "varsh": 4.0,
+        "obs": 0.7
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.3,
+        "qdm": 0.4,
+        "varsh": 0.5,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 30,
+    "name": "Aurangabad",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 3.2,
+    "qdm_mm": 3.8,
+    "varsh_mm": 4.8,
+    "obs_mm": 1.7,
+    "p_light": 0.058,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 19.876,
+    "lon": 75.343,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 9.4,
+        "qdm": 11.7,
+        "varsh": 14.6,
+        "obs": 7.2
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 7.0,
+        "qdm": 6.7,
+        "varsh": 7.7,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.1,
+        "qdm": 0.1,
+        "varsh": 0.1,
+        "obs": 3.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 3.2,
+        "qdm": 3.8,
+        "varsh": 4.8,
+        "obs": 1.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 4.9,
+        "qdm": 6.2,
+        "varsh": 7.7,
+        "obs": 5.3
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 5.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 31,
+    "name": "Dhanbad",
+    "state": "Jharkhand",
+    "regime": "depression",
+    "nwp_mm": 125.7,
+    "qdm_mm": 151.4,
+    "varsh_mm": 189.3,
+    "obs_mm": 128.9,
+    "p_light": 0.118,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.003,
+    "lat": 23.796,
+    "lon": 86.43,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 1.9,
+        "qdm": 2.4,
+        "varsh": 3.0,
+        "obs": 1.4
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 4.9,
+        "qdm": 4.7,
+        "varsh": 5.4,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 4",
+        "nwp": 16.0,
+        "qdm": 19.8,
+        "varsh": 24.7,
+        "obs": 59.9
+      },
+      {
+        "day": "Day 5",
+        "nwp": 45.1,
+        "qdm": 54.7,
+        "varsh": 68.4,
+        "obs": 100.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 125.7,
+        "qdm": 151.4,
+        "varsh": 189.3,
+        "obs": 128.9
+      },
+      {
+        "day": "Day 7",
+        "nwp": 23.0,
+        "qdm": 28.9,
+        "varsh": 36.1,
+        "obs": 5.9
+      },
+      {
+        "day": "Day 8",
+        "nwp": 1.6,
+        "qdm": 2.0,
+        "varsh": 2.5,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 28.7,
+        "qdm": 29.0,
+        "varsh": 33.4,
+        "obs": 28.7
+      },
+      {
+        "day": "Day 10",
+        "nwp": 4.0,
+        "qdm": 5.0,
+        "varsh": 6.3,
+        "obs": 8.0
+      }
+    ]
+  },
+  {
+    "district_id": 32,
+    "name": "Amritsar",
+    "state": "Punjab",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.3,
+    "p_light": 0.06,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 31.634,
+    "lon": 74.872,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 3.0,
+        "qdm": 3.7,
+        "varsh": 4.6,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 3.7,
+        "qdm": 3.7,
+        "varsh": 4.2,
+        "obs": 1.3
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 19.8,
+        "qdm": 24.5,
+        "varsh": 30.6,
+        "obs": 91.1
+      },
+      {
+        "day": "Day 5",
+        "nwp": 6.3,
+        "qdm": 7.7,
+        "varsh": 9.6,
+        "obs": 9.8
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.2,
+        "qdm": 0.2,
+        "varsh": 0.3,
+        "obs": 0.5
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 33,
+    "name": "Navi Mumbai",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 9.4,
+    "qdm_mm": 11.3,
+    "varsh_mm": 14.2,
+    "obs_mm": 14.7,
+    "p_light": 0.19,
+    "p_heavy": 0.048,
+    "p_very_heavy": 0.017,
+    "lat": 19.033,
+    "lon": 73.03,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 25.2,
+        "qdm": 31.3,
+        "varsh": 39.1,
+        "obs": 6.4
+      },
+      {
+        "day": "Day 2",
+        "nwp": 30.1,
+        "qdm": 29.6,
+        "varsh": 34.0,
+        "obs": 30.1
+      },
+      {
+        "day": "Day 3",
+        "nwp": 38.4,
+        "qdm": 36.7,
+        "varsh": 42.2,
+        "obs": 38.4
+      },
+      {
+        "day": "Day 4",
+        "nwp": 18.0,
+        "qdm": 22.2,
+        "varsh": 27.8,
+        "obs": 16.3
+      },
+      {
+        "day": "Day 5",
+        "nwp": 10.1,
+        "qdm": 12.2,
+        "varsh": 15.3,
+        "obs": 54.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 9.4,
+        "qdm": 11.3,
+        "varsh": 14.2,
+        "obs": 14.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 60.3,
+        "qdm": 75.9,
+        "varsh": 94.9,
+        "obs": 100.7
+      },
+      {
+        "day": "Day 8",
+        "nwp": 18.8,
+        "qdm": 23.4,
+        "varsh": 29.2,
+        "obs": 24.9
+      },
+      {
+        "day": "Day 9",
+        "nwp": 17.9,
+        "qdm": 18.1,
+        "varsh": 20.8,
+        "obs": 17.9
+      },
+      {
+        "day": "Day 10",
+        "nwp": 21.9,
+        "qdm": 27.8,
+        "varsh": 34.8,
+        "obs": 19.3
+      }
+    ]
+  },
+  {
+    "district_id": 34,
+    "name": "Allahabad",
+    "state": "Uttar Pradesh",
+    "regime": "depression",
+    "nwp_mm": 2.5,
+    "qdm_mm": 3.0,
+    "varsh_mm": 3.7,
+    "obs_mm": 0.0,
+    "p_light": 0.066,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 25.436,
+    "lon": 81.846,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.0,
+        "qdm": 4.8,
+        "varsh": 5.5,
+        "obs": 2.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 32.4,
+        "qdm": 40.0,
+        "varsh": 50.0,
+        "obs": 19.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 11.7,
+        "qdm": 14.2,
+        "varsh": 17.7,
+        "obs": 28.9
+      },
+      {
+        "day": "Day 6",
+        "nwp": 2.5,
+        "qdm": 3.0,
+        "varsh": 3.7,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 6.2,
+        "qdm": 7.8,
+        "varsh": 9.7,
+        "obs": 16.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.3,
+        "qdm": 0.4,
+        "varsh": 0.5,
+        "obs": 5.7
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.8,
+        "qdm": 1.0,
+        "varsh": 1.2,
+        "obs": 7.6
+      }
+    ]
+  },
+  {
+    "district_id": 35,
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "regime": "depression",
+    "nwp_mm": 113.0,
+    "qdm_mm": 136.1,
+    "varsh_mm": 170.2,
+    "obs_mm": 129.6,
+    "p_light": 0.108,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 23.344,
+    "lon": 85.31,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 4.8,
+        "qdm": 5.9,
+        "varsh": 7.4,
+        "obs": 7.4
+      },
+      {
+        "day": "Day 2",
+        "nwp": 7.0,
+        "qdm": 6.9,
+        "varsh": 7.9,
+        "obs": 7.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.1,
+        "qdm": 5.9,
+        "varsh": 6.8,
+        "obs": 2.9
+      },
+      {
+        "day": "Day 4",
+        "nwp": 16.2,
+        "qdm": 19.9,
+        "varsh": 24.9,
+        "obs": 16.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 21.0,
+        "qdm": 25.5,
+        "varsh": 31.9,
+        "obs": 40.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 113.0,
+        "qdm": 136.1,
+        "varsh": 170.2,
+        "obs": 129.6
+      },
+      {
+        "day": "Day 7",
+        "nwp": 8.0,
+        "qdm": 10.1,
+        "varsh": 12.6,
+        "obs": 5.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 14.3,
+        "qdm": 14.5,
+        "varsh": 16.6,
+        "obs": 14.3
+      },
+      {
+        "day": "Day 10",
+        "nwp": 28.9,
+        "qdm": 36.7,
+        "varsh": 45.9,
+        "obs": 11.7
+      }
+    ]
+  },
+  {
+    "district_id": 36,
+    "name": "Howrah",
+    "state": "West Bengal",
+    "regime": "depression",
+    "nwp_mm": 26.3,
+    "qdm_mm": 31.6,
+    "varsh_mm": 39.5,
+    "obs_mm": 35.3,
+    "p_light": 0.126,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 22.596,
+    "lon": 88.264,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 6.2,
+        "qdm": 7.7,
+        "varsh": 9.7,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 31.7,
+        "qdm": 31.2,
+        "varsh": 35.9,
+        "obs": 31.7
+      },
+      {
+        "day": "Day 3",
+        "nwp": 14.6,
+        "qdm": 14.0,
+        "varsh": 16.1,
+        "obs": 14.6
+      },
+      {
+        "day": "Day 4",
+        "nwp": 19.9,
+        "qdm": 24.6,
+        "varsh": 30.8,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 5",
+        "nwp": 51.0,
+        "qdm": 61.8,
+        "varsh": 77.3,
+        "obs": 99.8
+      },
+      {
+        "day": "Day 6",
+        "nwp": 26.3,
+        "qdm": 31.6,
+        "varsh": 39.5,
+        "obs": 35.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 1.0,
+        "qdm": 1.2,
+        "varsh": 1.6,
+        "obs": 2.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 1.8,
+        "qdm": 2.2,
+        "varsh": 2.7,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 19.9,
+        "qdm": 20.1,
+        "varsh": 23.1,
+        "obs": 19.9
+      },
+      {
+        "day": "Day 10",
+        "nwp": 7.2,
+        "qdm": 9.2,
+        "varsh": 11.5,
+        "obs": 1.9
+      }
+    ]
+  },
+  {
+    "district_id": 37,
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "regime": "depression",
+    "nwp_mm": 0.1,
+    "qdm_mm": 0.1,
+    "varsh_mm": 0.1,
+    "obs_mm": 0.0,
+    "p_light": 0.053,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 11.017,
+    "lon": 76.956,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 8.8,
+        "qdm": 8.7,
+        "varsh": 10.0,
+        "obs": 8.8
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 8.2,
+        "qdm": 10.1,
+        "varsh": 12.6,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 15.5,
+        "qdm": 18.8,
+        "varsh": 23.5,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.1,
+        "qdm": 0.1,
+        "varsh": 0.1,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 2.1,
+        "qdm": 2.6,
+        "varsh": 3.2,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 38,
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "regime": "depression",
+    "nwp_mm": 14.1,
+    "qdm_mm": 17.0,
+    "varsh_mm": 21.3,
+    "obs_mm": 37.0,
+    "p_light": 0.095,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 23.182,
+    "lon": 79.986,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 43.5,
+        "qdm": 54.0,
+        "varsh": 67.5,
+        "obs": 14.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 69.5,
+        "qdm": 85.8,
+        "varsh": 107.3,
+        "obs": 16.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 25.9,
+        "qdm": 31.5,
+        "varsh": 39.3,
+        "obs": 32.3
+      },
+      {
+        "day": "Day 6",
+        "nwp": 14.1,
+        "qdm": 17.0,
+        "varsh": 21.3,
+        "obs": 37.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 79.7,
+        "qdm": 100.3,
+        "varsh": 125.4,
+        "obs": 107.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 15.6,
+        "qdm": 19.4,
+        "varsh": 24.3,
+        "obs": 20.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 2.1,
+        "qdm": 2.6,
+        "varsh": 3.3,
+        "obs": 0.0
+      }
+    ]
+  },
+  {
+    "district_id": 39,
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.1,
+    "p_light": 0.078,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.218,
+    "lon": 78.183,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 3.4,
+        "qdm": 4.2,
+        "varsh": 5.3,
+        "obs": 2.5
+      },
+      {
+        "day": "Day 2",
+        "nwp": 3.6,
+        "qdm": 3.6,
+        "varsh": 4.1,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 3",
+        "nwp": 11.6,
+        "qdm": 11.1,
+        "varsh": 12.7,
+        "obs": 11.6
+      },
+      {
+        "day": "Day 4",
+        "nwp": 34.9,
+        "qdm": 43.0,
+        "varsh": 53.8,
+        "obs": 53.8
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.6,
+        "qdm": 0.7,
+        "varsh": 0.9,
+        "obs": 3.2
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 7",
+        "nwp": 9.8,
+        "qdm": 12.4,
+        "varsh": 15.5,
+        "obs": 7.5
+      },
+      {
+        "day": "Day 8",
+        "nwp": 43.9,
+        "qdm": 54.5,
+        "varsh": 68.1,
+        "obs": 33.7
+      },
+      {
+        "day": "Day 9",
+        "nwp": 7.5,
+        "qdm": 7.5,
+        "varsh": 8.7,
+        "obs": 2.7
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 1.0
+      }
+    ]
+  },
+  {
+    "district_id": 40,
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.098,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 16.506,
+    "lon": 80.648,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 10.6,
+        "qdm": 13.2,
+        "varsh": 16.4,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 6.9,
+        "qdm": 6.8,
+        "varsh": 7.8,
+        "obs": 2.3
+      },
+      {
+        "day": "Day 3",
+        "nwp": 15.8,
+        "qdm": 15.1,
+        "varsh": 17.4,
+        "obs": 15.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.4,
+        "qdm": 0.5,
+        "varsh": 0.6,
+        "obs": 1.5
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.7,
+        "qdm": 0.9,
+        "varsh": 1.1,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 9",
+        "nwp": 4.2,
+        "qdm": 4.3,
+        "varsh": 4.9,
+        "obs": 1.2
+      },
+      {
+        "day": "Day 10",
+        "nwp": 22.1,
+        "qdm": 28.1,
+        "varsh": 35.1,
+        "obs": 27.8
+      }
+    ]
+  },
+  {
+    "district_id": 41,
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "regime": "depression",
+    "nwp_mm": 52.0,
+    "qdm_mm": 62.6,
+    "varsh_mm": 78.3,
+    "obs_mm": 60.7,
+    "p_light": 0.05,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.239,
+    "lon": 73.024,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 14.0,
+        "qdm": 17.3,
+        "varsh": 21.7,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 11.8,
+        "qdm": 14.4,
+        "varsh": 17.9,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 6",
+        "nwp": 52.0,
+        "qdm": 62.6,
+        "varsh": 78.3,
+        "obs": 60.7
+      },
+      {
+        "day": "Day 7",
+        "nwp": 1.0,
+        "qdm": 1.3,
+        "varsh": 1.6,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 41.9,
+        "qdm": 52.0,
+        "varsh": 65.0,
+        "obs": 26.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 30.9,
+        "qdm": 31.3,
+        "varsh": 35.9,
+        "obs": 41.7
+      },
+      {
+        "day": "Day 10",
+        "nwp": 6.5,
+        "qdm": 8.3,
+        "varsh": 10.3,
+        "obs": 23.7
+      }
+    ]
+  },
+  {
+    "district_id": 42,
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 0.0,
+    "p_light": 0.081,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 9.925,
+    "lon": 78.12,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.3,
+        "qdm": 0.4,
+        "varsh": 0.5,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 8",
+        "nwp": 2.4,
+        "qdm": 3.0,
+        "varsh": 3.8,
+        "obs": 0.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 3.6,
+        "qdm": 3.7,
+        "varsh": 4.2,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 10",
+        "nwp": 7.3,
+        "qdm": 9.3,
+        "varsh": 11.7,
+        "obs": 15.0
+      }
+    ]
+  },
+  {
+    "district_id": 43,
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "regime": "depression",
+    "nwp_mm": 34.0,
+    "qdm_mm": 41.0,
+    "varsh_mm": 51.2,
+    "obs_mm": 21.0,
+    "p_light": 0.075,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 21.251,
+    "lon": 81.63,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 15.4,
+        "qdm": 19.1,
+        "varsh": 23.9,
+        "obs": 4.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.9,
+        "qdm": 6.6,
+        "varsh": 7.6,
+        "obs": 4.2
+      },
+      {
+        "day": "Day 4",
+        "nwp": 2.7,
+        "qdm": 3.3,
+        "varsh": 4.2,
+        "obs": 11.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 22.9,
+        "qdm": 27.8,
+        "varsh": 34.8,
+        "obs": 14.6
+      },
+      {
+        "day": "Day 6",
+        "nwp": 34.0,
+        "qdm": 41.0,
+        "varsh": 51.2,
+        "obs": 21.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 25.5,
+        "qdm": 32.1,
+        "varsh": 40.1,
+        "obs": 29.2
+      },
+      {
+        "day": "Day 8",
+        "nwp": 2.1,
+        "qdm": 2.6,
+        "varsh": 3.2,
+        "obs": 1.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 62.6,
+        "qdm": 79.5,
+        "varsh": 99.3,
+        "obs": 39.9
+      }
+    ]
+  },
+  {
+    "district_id": 44,
+    "name": "Kota",
+    "state": "Rajasthan",
+    "regime": "depression",
+    "nwp_mm": 4.8,
+    "qdm_mm": 5.8,
+    "varsh_mm": 7.3,
+    "obs_mm": 10.3,
+    "p_light": 0.086,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 25.214,
+    "lon": 75.865,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.6,
+        "qdm": 0.7,
+        "varsh": 0.9,
+        "obs": 26.3
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 4",
+        "nwp": 4.5,
+        "qdm": 5.6,
+        "varsh": 7.0,
+        "obs": 12.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 11.0,
+        "qdm": 13.4,
+        "varsh": 16.8,
+        "obs": 35.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 4.8,
+        "qdm": 5.8,
+        "varsh": 7.3,
+        "obs": 10.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.4
+      },
+      {
+        "day": "Day 8",
+        "nwp": 54.2,
+        "qdm": 67.3,
+        "varsh": 84.1,
+        "obs": 93.3
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.1,
+        "qdm": 0.1,
+        "varsh": 0.1,
+        "obs": 10.7
+      }
+    ]
+  },
+  {
+    "district_id": 45,
+    "name": "Guwahati",
+    "state": "Assam",
+    "regime": "depression",
+    "nwp_mm": 16.0,
+    "qdm_mm": 19.3,
+    "varsh_mm": 24.1,
+    "obs_mm": 12.1,
+    "p_light": 0.128,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 26.145,
+    "lon": 91.736,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 13.5,
+        "qdm": 16.8,
+        "varsh": 21.0,
+        "obs": 15.1
+      },
+      {
+        "day": "Day 2",
+        "nwp": 27.0,
+        "qdm": 26.6,
+        "varsh": 30.6,
+        "obs": 27.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 3.8,
+        "qdm": 3.7,
+        "varsh": 4.2,
+        "obs": 1.5
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.3,
+        "qdm": 0.4,
+        "varsh": 0.5,
+        "obs": 0.2
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 7.2
+      },
+      {
+        "day": "Day 6",
+        "nwp": 16.0,
+        "qdm": 19.3,
+        "varsh": 24.1,
+        "obs": 12.1
+      },
+      {
+        "day": "Day 7",
+        "nwp": 1.7,
+        "qdm": 2.1,
+        "varsh": 2.7,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 5.2,
+        "qdm": 6.5,
+        "varsh": 8.1,
+        "obs": 1.8
+      },
+      {
+        "day": "Day 9",
+        "nwp": 33.5,
+        "qdm": 33.8,
+        "varsh": 38.9,
+        "obs": 33.5
+      },
+      {
+        "day": "Day 10",
+        "nwp": 0.5,
+        "qdm": 0.7,
+        "varsh": 0.8,
+        "obs": 0.7
+      }
+    ]
+  },
+  {
+    "district_id": 46,
+    "name": "Chandigarh",
+    "state": "Punjab",
+    "regime": "depression",
+    "nwp_mm": 0.0,
+    "qdm_mm": 0.0,
+    "varsh_mm": 0.0,
+    "obs_mm": 6.3,
+    "p_light": 0.085,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.002,
+    "lat": 30.733,
+    "lon": 76.779,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 5.2,
+        "qdm": 6.4,
+        "varsh": 8.1,
+        "obs": 2.7
+      },
+      {
+        "day": "Day 2",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 6.6,
+        "qdm": 6.3,
+        "varsh": 7.3,
+        "obs": 6.6
+      },
+      {
+        "day": "Day 4",
+        "nwp": 78.0,
+        "qdm": 96.3,
+        "varsh": 120.4,
+        "obs": 33.6
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 6.3
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 10",
+        "nwp": 7.3,
+        "qdm": 9.3,
+        "varsh": 11.6,
+        "obs": 12.5
+      }
+    ]
+  },
+  {
+    "district_id": 47,
+    "name": "Solapur",
+    "state": "Maharashtra",
+    "regime": "depression",
+    "nwp_mm": 0.2,
+    "qdm_mm": 0.3,
+    "varsh_mm": 0.3,
+    "obs_mm": 1.0,
+    "p_light": 0.062,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 17.66,
+    "lon": 75.906,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.1,
+        "qdm": 0.1,
+        "varsh": 0.2,
+        "obs": 0.7
+      },
+      {
+        "day": "Day 2",
+        "nwp": 3.2,
+        "qdm": 3.2,
+        "varsh": 3.6,
+        "obs": 1.1
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.2,
+        "qdm": 5.0,
+        "varsh": 5.7,
+        "obs": 2.1
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.0
+      },
+      {
+        "day": "Day 5",
+        "nwp": 0.5,
+        "qdm": 0.6,
+        "varsh": 0.7,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 6",
+        "nwp": 0.2,
+        "qdm": 0.3,
+        "varsh": 0.3,
+        "obs": 1.0
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.1
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.7,
+        "qdm": 0.9,
+        "varsh": 1.1,
+        "obs": 0.5
+      },
+      {
+        "day": "Day 9",
+        "nwp": 10.2,
+        "qdm": 10.3,
+        "varsh": 11.9,
+        "obs": 10.2
+      },
+      {
+        "day": "Day 10",
+        "nwp": 2.2,
+        "qdm": 2.8,
+        "varsh": 3.5,
+        "obs": 7.0
+      }
+    ]
+  },
+  {
+    "district_id": 48,
+    "name": "Hubballi",
+    "state": "Karnataka",
+    "regime": "depression",
+    "nwp_mm": 6.9,
+    "qdm_mm": 8.4,
+    "varsh_mm": 10.5,
+    "obs_mm": 1.4,
+    "p_light": 0.079,
+    "p_heavy": 0.01,
+    "p_very_heavy": 0.001,
+    "lat": 15.365,
+    "lon": 75.124,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 3.0,
+        "qdm": 3.7,
+        "varsh": 4.6,
+        "obs": 3.0
+      },
+      {
+        "day": "Day 2",
+        "nwp": 25.0,
+        "qdm": 24.6,
+        "varsh": 28.2,
+        "obs": 25.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 5.8,
+        "qdm": 5.5,
+        "varsh": 6.4,
+        "obs": 5.8
+      },
+      {
+        "day": "Day 4",
+        "nwp": 5.1,
+        "qdm": 6.3,
+        "varsh": 7.9,
+        "obs": 6.2
+      },
+      {
+        "day": "Day 5",
+        "nwp": 2.9,
+        "qdm": 3.5,
+        "varsh": 4.4,
+        "obs": 5.2
+      },
+      {
+        "day": "Day 6",
+        "nwp": 6.9,
+        "qdm": 8.4,
+        "varsh": 10.5,
+        "obs": 1.4
+      },
+      {
+        "day": "Day 7",
+        "nwp": 5.1,
+        "qdm": 6.4,
+        "varsh": 8.0,
+        "obs": 1.7
+      },
+      {
+        "day": "Day 8",
+        "nwp": 9.3,
+        "qdm": 11.5,
+        "varsh": 14.4,
+        "obs": 1.6
+      },
+      {
+        "day": "Day 9",
+        "nwp": 7.0,
+        "qdm": 7.1,
+        "varsh": 8.1,
+        "obs": 2.2
+      },
+      {
+        "day": "Day 10",
+        "nwp": 4.7,
+        "qdm": 6.0,
+        "varsh": 7.5,
+        "obs": 4.8
+      }
+    ]
+  },
+  {
+    "district_id": 49,
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "regime": "depression",
+    "nwp_mm": 20.5,
+    "qdm_mm": 24.7,
+    "varsh_mm": 30.8,
+    "obs_mm": 25.5,
+    "p_light": 0.142,
+    "p_heavy": 0.011,
+    "p_very_heavy": 0.001,
+    "lat": 20.296,
+    "lon": 85.825,
+    "time_series": [
+      {
+        "day": "Day 1",
+        "nwp": 0.1,
+        "qdm": 0.2,
+        "varsh": 0.2,
+        "obs": 20.3
+      },
+      {
+        "day": "Day 2",
+        "nwp": 30.0,
+        "qdm": 29.5,
+        "varsh": 33.9,
+        "obs": 30.0
+      },
+      {
+        "day": "Day 3",
+        "nwp": 3.9,
+        "qdm": 3.7,
+        "varsh": 4.3,
+        "obs": 1.2
+      },
+      {
+        "day": "Day 4",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 18.9
+      },
+      {
+        "day": "Day 5",
+        "nwp": 4.6,
+        "qdm": 5.6,
+        "varsh": 7.0,
+        "obs": 3.9
+      },
+      {
+        "day": "Day 6",
+        "nwp": 20.5,
+        "qdm": 24.7,
+        "varsh": 30.8,
+        "obs": 25.5
+      },
+      {
+        "day": "Day 7",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 0.8
+      },
+      {
+        "day": "Day 8",
+        "nwp": 0.0,
+        "qdm": 0.0,
+        "varsh": 0.0,
+        "obs": 1.0
+      },
+      {
+        "day": "Day 9",
+        "nwp": 9.2,
+        "qdm": 9.3,
+        "varsh": 10.6,
+        "obs": 9.2
+      },
+      {
+        "day": "Day 10",
+        "nwp": 28.1,
+        "qdm": 35.7,
+        "varsh": 44.6,
+        "obs": 36.2
+      }
+    ]
+  }
+]

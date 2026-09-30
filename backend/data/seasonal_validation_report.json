@@ -1,0 +1,43 @@
+{
+  "validation_days": 92,
+  "methodology": "Leave-One-Monsoon-Out Temporal Partitioning",
+  "leakage_audit": "PASS (Strictly causal, zero observation-time predictors)",
+  "seasonal_breakdown": {
+    "Pre-Monsoon Window (Q1)": {
+      "nwp_rmse": 1.22,
+      "varsh_rmse": 1.016,
+      "nwp_pod_heavy": 1.0,
+      "varsh_pod_heavy": 0.0,
+      "pod_gain_pp": -100.0,
+      "nwp_csi_heavy": 0.2,
+      "varsh_csi_heavy": 0.0
+    },
+    "Peak Monsoon Track (Q2)": {
+      "nwp_rmse": 2.953,
+      "varsh_rmse": 3.519,
+      "nwp_pod_heavy": 0.3913,
+      "varsh_pod_heavy": 0.6087,
+      "pod_gain_pp": 21.7,
+      "nwp_csi_heavy": 0.3462,
+      "varsh_csi_heavy": 0.4308
+    },
+    "Post-Monsoon Depressions (Q3)": {
+      "nwp_rmse": 4.88,
+      "varsh_rmse": 5.616,
+      "nwp_pod_heavy": 0.3063,
+      "varsh_pod_heavy": 0.4775,
+      "pod_gain_pp": 17.1,
+      "nwp_csi_heavy": 0.281,
+      "varsh_csi_heavy": 0.3155
+    },
+    "Winter/WD Window (Q4)": {
+      "nwp_rmse": 1.786,
+      "varsh_rmse": 2.185,
+      "nwp_pod_heavy": 0.4737,
+      "varsh_pod_heavy": 0.4211,
+      "pod_gain_pp": -5.3,
+      "nwp_csi_heavy": 0.4286,
+      "varsh_csi_heavy": 0.2963
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# ==========================================
+# Varsh-AI — Git Attributes & Line Endings
+# ==========================================
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code files
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.geojson text eol=lf
+
+# Executable shell scripts
+run.sh text eol=lf executable
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.npz binary
+*.pt binary
+*.pth binary

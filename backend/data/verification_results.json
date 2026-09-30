@@ -1,0 +1,2882 @@
+{
+  "label": "validation_2021_2025",
+  "n_days": 366,
+  "grid_shape": [
+    129,
+    135
+  ],
+  "n_gridpoints": 6373890,
+  "data_source": "IMD Gridded Daily Rainfall 0.25 deg (2021-2025)",
+  "overall": {
+    "raw_nwp": {
+      "continuous": {
+        "rmse": 3.299,
+        "mae": 0.556,
+        "bias": 0.0641,
+        "corr": 0.8475,
+        "wet_bias": 0.0391,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8746,
+        "far": 0.4272,
+        "csi": 0.5293,
+        "ets": 0.5039,
+        "hits": 309367,
+        "misses": 44342,
+        "false_alarms": 230746,
+        "correct_neg": 5789435
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7675,
+        "far": 0.1616,
+        "csi": 0.6686,
+        "ets": 0.6634,
+        "hits": 94541,
+        "misses": 28638,
+        "false_alarms": 18224,
+        "correct_neg": 6232487
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.426,
+        "far": 0.2844,
+        "csi": 0.3643,
+        "ets": 0.3637,
+        "hits": 5085,
+        "misses": 6853,
+        "false_alarms": 2021,
+        "correct_neg": 6359931
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3878,
+        "far": 0.3396,
+        "csi": 0.3233,
+        "ets": 0.3232,
+        "hits": 883,
+        "misses": 1394,
+        "false_alarms": 454,
+        "correct_neg": 6371159
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3333,
+        "far": 0.425,
+        "csi": 0.2674,
+        "ets": 0.2674,
+        "hits": 69,
+        "misses": 138,
+        "false_alarms": 51,
+        "correct_neg": 6373632
+      }
+    },
+    "qdm": {
+      "continuous": {
+        "rmse": 3.5317,
+        "mae": 0.5267,
+        "bias": -0.0024,
+        "corr": 0.8263,
+        "wet_bias": 0.0314,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8666,
+        "far": 0.2937,
+        "csi": 0.637,
+        "ets": 0.6179,
+        "hits": 306540,
+        "misses": 47169,
+        "false_alarms": 127492,
+        "correct_neg": 5892689
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7402,
+        "far": 0.2043,
+        "csi": 0.622,
+        "ets": 0.6162,
+        "hits": 91175,
+        "misses": 32004,
+        "false_alarms": 23414,
+        "correct_neg": 6227297
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.4399,
+        "far": 0.3863,
+        "csi": 0.3445,
+        "ets": 0.3438,
+        "hits": 5251,
+        "misses": 6687,
+        "false_alarms": 3305,
+        "correct_neg": 6358647
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.4089,
+        "far": 0.4323,
+        "csi": 0.3118,
+        "ets": 0.3117,
+        "hits": 931,
+        "misses": 1346,
+        "false_alarms": 709,
+        "correct_neg": 6370904
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3382,
+        "far": 0.5541,
+        "csi": 0.2381,
+        "ets": 0.2381,
+        "hits": 70,
+        "misses": 137,
+        "false_alarms": 87,
+        "correct_neg": 6373596
+      }
+    },
+    "varsh": {
+      "continuous": {
+        "rmse": 3.964,
+        "mae": 0.5895,
+        "bias": 0.1643,
+        "corr": 0.8116,
+        "wet_bias": 0.0317,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.876,
+        "far": 0.3068,
+        "csi": 0.6313,
+        "ets": 0.6116,
+        "hits": 309836,
+        "misses": 43873,
+        "false_alarms": 137104,
+        "correct_neg": 5883077
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7975,
+        "far": 0.2632,
+        "csi": 0.6207,
+        "ets": 0.6144,
+        "hits": 98237,
+        "misses": 24942,
+        "false_alarms": 35098,
+        "correct_neg": 6215613
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.5379,
+        "far": 0.5041,
+        "csi": 0.3478,
+        "ets": 0.3469,
+        "hits": 6422,
+        "misses": 5516,
+        "false_alarms": 6527,
+        "correct_neg": 6355425
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.5033,
+        "far": 0.5754,
+        "csi": 0.2992,
+        "ets": 0.299,
+        "hits": 1146,
+        "misses": 1131,
+        "false_alarms": 1553,
+        "correct_neg": 6370060
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.4444,
+        "far": 0.7514,
+        "csi": 0.1897,
+        "ets": 0.1897,
+        "hits": 92,
+        "misses": 115,
+        "false_alarms": 278,
+        "correct_neg": 6373405
+      }
+    }
+  },
+  "fss": {
+    "moderate": {
+      "raw_nwp": {
+        "25km": {
+          "fss": 0.8213,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.8717,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.914,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.9375,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "qdm": {
+        "25km": {
+          "fss": 0.6515,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.7142,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.7604,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7828,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "varsh": {
+        "25km": {
+          "fss": 0.6747,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.7313,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.7732,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7941,
+          "useful": true,
+          "usefulness_threshold": 0.5097,
+          "f_o": 0.019326,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      }
+    },
+    "heavy": {
+      "raw_nwp": {
+        "25km": {
+          "fss": 0.627,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.6798,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.7242,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7484,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "qdm": {
+        "25km": {
+          "fss": 0.5789,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.6331,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.6866,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7155,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "varsh": {
+        "25km": {
+          "fss": 0.5836,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.6358,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.6822,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7064,
+          "useful": true,
+          "usefulness_threshold": 0.5009,
+          "f_o": 0.001873,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      }
+    },
+    "very_heavy": {
+      "raw_nwp": {
+        "25km": {
+          "fss": 0.7122,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.7394,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.7671,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7853,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "qdm": {
+        "25km": {
+          "fss": 0.6945,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.727,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.7683,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.795,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      },
+      "varsh": {
+        "25km": {
+          "fss": 0.7116,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 25,
+          "scale_cells": 1
+        },
+        "50km": {
+          "fss": 0.744,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 50,
+          "scale_cells": 2
+        },
+        "100km": {
+          "fss": 0.777,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 100,
+          "scale_cells": 4
+        },
+        "200km": {
+          "fss": 0.7969,
+          "useful": true,
+          "usefulness_threshold": 0.5002,
+          "f_o": 0.000357,
+          "scale_km": 200,
+          "scale_cells": 8
+        }
+      }
+    }
+  },
+  "by_regime": {
+    "active": {
+      "n_days": 128,
+      "models": {
+        "raw_nwp": {
+          "continuous": {
+            "rmse": 1.9103,
+            "mae": 0.3369,
+            "bias": 0.1033,
+            "corr": 0.9699,
+            "wet_bias": 0.0,
+            "n_points": 2229120
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06816,
+            "pod": 1.0,
+            "far": 0.3596,
+            "csi": 0.6404,
+            "ets": 0.6141,
+            "hits": 151929,
+            "misses": 0,
+            "false_alarms": 85325,
+            "correct_neg": 1991866
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02315,
+            "pod": 1.0,
+            "far": 0.0,
+            "csi": 1.0,
+            "ets": 1.0,
+            "hits": 51611,
+            "misses": 0,
+            "false_alarms": 0,
+            "correct_neg": 2177509
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00222,
+            "pod": 0.3948,
+            "far": 0.0,
+            "csi": 0.3948,
+            "ets": 0.3943,
+            "hits": 1956,
+            "misses": 2998,
+            "false_alarms": 0,
+            "correct_neg": 2224166
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00041,
+            "pod": 0.2834,
+            "far": 0.0,
+            "csi": 0.2834,
+            "ets": 0.2833,
+            "hits": 257,
+            "misses": 650,
+            "false_alarms": 0,
+            "correct_neg": 2228213
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 4e-05,
+            "pod": 0.2195,
+            "far": 0.0,
+            "csi": 0.2195,
+            "ets": 0.2195,
+            "hits": 18,
+            "misses": 64,
+            "false_alarms": 0,
+            "correct_neg": 2229038
+          }
+        },
+        "qdm": {
+          "continuous": {
+            "rmse": 2.1152,
+            "mae": 0.3829,
+            "bias": -0.008,
+            "corr": 0.97,
+            "wet_bias": 0.0,
+            "n_points": 2229120
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06816,
+            "pod": 0.9993,
+            "far": 0.3488,
+            "csi": 0.6509,
+            "ets": 0.6254,
+            "hits": 151822,
+            "misses": 107,
+            "false_alarms": 81312,
+            "correct_neg": 1995879
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02315,
+            "pod": 0.9051,
+            "far": 0.0027,
+            "csi": 0.9029,
+            "ets": 0.9008,
+            "hits": 46715,
+            "misses": 4896,
+            "false_alarms": 128,
+            "correct_neg": 2177381
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00222,
+            "pod": 0.3432,
+            "far": 0.0,
+            "csi": 0.3432,
+            "ets": 0.3427,
+            "hits": 1700,
+            "misses": 3254,
+            "false_alarms": 0,
+            "correct_neg": 2224166
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00041,
+            "pod": 0.237,
+            "far": 0.0,
+            "csi": 0.237,
+            "ets": 0.237,
+            "hits": 215,
+            "misses": 692,
+            "false_alarms": 0,
+            "correct_neg": 2228213
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 4e-05,
+            "pod": 0.1829,
+            "far": 0.0,
+            "csi": 0.1829,
+            "ets": 0.1829,
+            "hits": 15,
+            "misses": 67,
+            "false_alarms": 0,
+            "correct_neg": 2229038
+          }
+        },
+        "varsh": {
+          "continuous": {
+            "rmse": 1.7379,
+            "mae": 0.3857,
+            "bias": 0.1695,
+            "corr": 0.97,
+            "wet_bias": 0.0,
+            "n_points": 2229120
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06816,
+            "pod": 0.9994,
+            "far": 0.3582,
+            "csi": 0.6416,
+            "ets": 0.6154,
+            "hits": 151836,
+            "misses": 93,
+            "false_alarms": 84727,
+            "correct_neg": 1992464
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02315,
+            "pod": 0.9774,
+            "far": 0.0647,
+            "csi": 0.9155,
+            "ets": 0.9135,
+            "hits": 50443,
+            "misses": 1168,
+            "false_alarms": 3490,
+            "correct_neg": 2174019
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00222,
+            "pod": 0.5048,
+            "far": 0.0,
+            "csi": 0.5048,
+            "ets": 0.5043,
+            "hits": 2501,
+            "misses": 2453,
+            "false_alarms": 0,
+            "correct_neg": 2224166
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00041,
+            "pod": 0.4157,
+            "far": 0.0,
+            "csi": 0.4157,
+            "ets": 0.4156,
+            "hits": 377,
+            "misses": 530,
+            "false_alarms": 0,
+            "correct_neg": 2228213
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 4e-05,
+            "pod": 0.378,
+            "far": 0.0,
+            "csi": 0.378,
+            "ets": 0.378,
+            "hits": 31,
+            "misses": 51,
+            "false_alarms": 0,
+            "correct_neg": 2229038
+          }
+        }
+      },
+      "fss": {
+        "raw_nwp": {
+          "25km": {
+            "fss": 0.5115,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.5663,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.5867,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.5929,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "qdm": {
+          "25km": {
+            "fss": 0.4069,
+            "useful": false,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.4528,
+            "useful": false,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.4697,
+            "useful": false,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.473,
+            "useful": false,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "varsh": {
+          "25km": {
+            "fss": 0.5064,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.553,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.5709,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.5764,
+            "useful": true,
+            "usefulness_threshold": 0.5011,
+            "f_o": 0.002222,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        }
+      }
+    },
+    "break": {
+      "n_days": 115,
+      "models": {
+        "raw_nwp": {
+          "continuous": {
+            "rmse": 0.4479,
+            "mae": 0.0323,
+            "bias": 0.0098,
+            "corr": 0.9935,
+            "wet_bias": -0.0001,
+            "n_points": 2002725
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.01468,
+            "pod": 0.9761,
+            "far": 0.0329,
+            "csi": 0.9448,
+            "ets": 0.944,
+            "hits": 28700,
+            "misses": 702,
+            "false_alarms": 976,
+            "correct_neg": 1972347
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00442,
+            "pod": 0.9414,
+            "far": 0.0807,
+            "csi": 0.8695,
+            "ets": 0.869,
+            "hits": 8336,
+            "misses": 519,
+            "false_alarms": 732,
+            "correct_neg": 1993138
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00054,
+            "pod": 0.9338,
+            "far": 0.1733,
+            "csi": 0.7809,
+            "ets": 0.7808,
+            "hits": 1016,
+            "misses": 72,
+            "false_alarms": 213,
+            "correct_neg": 2001424
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00015,
+            "pod": 0.934,
+            "far": 0.2493,
+            "csi": 0.7128,
+            "ets": 0.7128,
+            "hits": 283,
+            "misses": 20,
+            "false_alarms": 94,
+            "correct_neg": 2002328
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 2e-05,
+            "pod": 0.9487,
+            "far": 0.2745,
+            "csi": 0.6981,
+            "ets": 0.6981,
+            "hits": 37,
+            "misses": 2,
+            "false_alarms": 14,
+            "correct_neg": 2002672
+          }
+        },
+        "qdm": {
+          "continuous": {
+            "rmse": 0.6129,
+            "mae": 0.0367,
+            "bias": -0.0049,
+            "corr": 0.9846,
+            "wet_bias": -0.0013,
+            "n_points": 2002725
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.01468,
+            "pod": 0.9138,
+            "far": 0.0343,
+            "csi": 0.8851,
+            "ets": 0.8836,
+            "hits": 26869,
+            "misses": 2533,
+            "false_alarms": 954,
+            "correct_neg": 1972369
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00442,
+            "pod": 0.9137,
+            "far": 0.0691,
+            "csi": 0.8556,
+            "ets": 0.8551,
+            "hits": 8091,
+            "misses": 764,
+            "false_alarms": 601,
+            "correct_neg": 1993269
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00054,
+            "pod": 0.9219,
+            "far": 0.1278,
+            "csi": 0.8121,
+            "ets": 0.8121,
+            "hits": 1003,
+            "misses": 85,
+            "false_alarms": 147,
+            "correct_neg": 2001490
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00015,
+            "pod": 0.9175,
+            "far": 0.1677,
+            "csi": 0.7744,
+            "ets": 0.7743,
+            "hits": 278,
+            "misses": 25,
+            "false_alarms": 56,
+            "correct_neg": 2002366
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 2e-05,
+            "pod": 0.9487,
+            "far": 0.1395,
+            "csi": 0.8222,
+            "ets": 0.8222,
+            "hits": 37,
+            "misses": 2,
+            "false_alarms": 6,
+            "correct_neg": 2002680
+          }
+        },
+        "varsh": {
+          "continuous": {
+            "rmse": 0.6456,
+            "mae": 0.0395,
+            "bias": -0.0299,
+            "corr": 0.9846,
+            "wet_bias": -0.0015,
+            "n_points": 2002725
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.01468,
+            "pod": 0.8885,
+            "far": 0.0211,
+            "csi": 0.8718,
+            "ets": 0.8701,
+            "hits": 26124,
+            "misses": 3278,
+            "false_alarms": 564,
+            "correct_neg": 1972759
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00442,
+            "pod": 0.85,
+            "far": 0.0315,
+            "csi": 0.8271,
+            "ets": 0.8265,
+            "hits": 7527,
+            "misses": 1328,
+            "false_alarms": 245,
+            "correct_neg": 1993625
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00054,
+            "pod": 0.8171,
+            "far": 0.0122,
+            "csi": 0.8089,
+            "ets": 0.8088,
+            "hits": 889,
+            "misses": 199,
+            "false_alarms": 11,
+            "correct_neg": 2001626
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00015,
+            "pod": 0.8152,
+            "far": 0.008,
+            "csi": 0.8098,
+            "ets": 0.8098,
+            "hits": 247,
+            "misses": 56,
+            "false_alarms": 2,
+            "correct_neg": 2002420
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 2e-05,
+            "pod": 0.8462,
+            "far": 0.0294,
+            "csi": 0.825,
+            "ets": 0.825,
+            "hits": 33,
+            "misses": 6,
+            "false_alarms": 1,
+            "correct_neg": 2002685
+          }
+        }
+      },
+      "fss": {
+        "raw_nwp": {
+          "25km": {
+            "fss": 0.9046,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.9125,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.9159,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.9176,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "qdm": {
+          "25km": {
+            "fss": 0.8745,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.8803,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.8832,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.8844,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "varsh": {
+          "25km": {
+            "fss": 0.8511,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.8575,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.8597,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.8605,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000543,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        }
+      }
+    },
+    "depression": {
+      "n_days": 80,
+      "models": {
+        "raw_nwp": {
+          "continuous": {
+            "rmse": 6.435,
+            "mae": 1.4236,
+            "bias": -0.374,
+            "corr": 0.6653,
+            "wet_bias": -0.0015,
+            "n_points": 1393200
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.10191,
+            "pod": 0.708,
+            "far": 0.2453,
+            "csi": 0.5755,
+            "ets": 0.5398,
+            "hits": 100519,
+            "misses": 41462,
+            "false_alarms": 32669,
+            "correct_neg": 1218550
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.03812,
+            "pod": 0.4823,
+            "far": 0.3888,
+            "csi": 0.3691,
+            "ets": 0.3542,
+            "hits": 25616,
+            "misses": 27492,
+            "false_alarms": 16293,
+            "correct_neg": 1323799
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00356,
+            "pod": 0.2475,
+            "far": 0.5513,
+            "csi": 0.1898,
+            "ets": 0.1886,
+            "hits": 1229,
+            "misses": 3736,
+            "false_alarms": 1510,
+            "correct_neg": 1386725
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00063,
+            "pod": 0.181,
+            "far": 0.6107,
+            "csi": 0.141,
+            "ets": 0.1408,
+            "hits": 160,
+            "misses": 724,
+            "false_alarms": 251,
+            "correct_neg": 1392065
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 5e-05,
+            "pod": 0.027,
+            "far": 0.8889,
+            "csi": 0.0222,
+            "ets": 0.0222,
+            "hits": 2,
+            "misses": 72,
+            "false_alarms": 16,
+            "correct_neg": 1393110
+          }
+        },
+        "qdm": {
+          "continuous": {
+            "rmse": 6.9211,
+            "mae": 1.5178,
+            "bias": -0.0087,
+            "corr": 0.6651,
+            "wet_bias": -0.0002,
+            "n_points": 1393200
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.10191,
+            "pod": 0.7386,
+            "far": 0.2601,
+            "csi": 0.5863,
+            "ets": 0.55,
+            "hits": 104861,
+            "misses": 37120,
+            "false_alarms": 36862,
+            "correct_neg": 1214357
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.03812,
+            "pod": 0.5686,
+            "far": 0.4276,
+            "csi": 0.3991,
+            "ets": 0.3827,
+            "hits": 30196,
+            "misses": 22912,
+            "false_alarms": 22558,
+            "correct_neg": 1317534
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00356,
+            "pod": 0.3736,
+            "far": 0.6239,
+            "csi": 0.2307,
+            "ets": 0.229,
+            "hits": 1855,
+            "misses": 3110,
+            "false_alarms": 3077,
+            "correct_neg": 1385158
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00063,
+            "pod": 0.3133,
+            "far": 0.6902,
+            "csi": 0.1845,
+            "ets": 0.1842,
+            "hits": 277,
+            "misses": 607,
+            "false_alarms": 617,
+            "correct_neg": 1391699
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 5e-05,
+            "pod": 0.0811,
+            "far": 0.9268,
+            "csi": 0.04,
+            "ets": 0.04,
+            "hits": 6,
+            "misses": 68,
+            "false_alarms": 76,
+            "correct_neg": 1393050
+          }
+        },
+        "varsh": {
+          "continuous": {
+            "rmse": 8.0329,
+            "mae": 1.7707,
+            "bias": 0.4597,
+            "corr": 0.6651,
+            "wet_bias": 0.0,
+            "n_points": 1393200
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.10191,
+            "pod": 0.7634,
+            "far": 0.2781,
+            "csi": 0.5899,
+            "ets": 0.5527,
+            "hits": 108382,
+            "misses": 33599,
+            "false_alarms": 41744,
+            "correct_neg": 1209475
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.03812,
+            "pod": 0.6357,
+            "far": 0.4761,
+            "csi": 0.4029,
+            "ets": 0.3849,
+            "hits": 33761,
+            "misses": 19347,
+            "false_alarms": 30679,
+            "correct_neg": 1309413
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00356,
+            "pod": 0.4665,
+            "far": 0.7281,
+            "csi": 0.2074,
+            "ets": 0.2052,
+            "hits": 2316,
+            "misses": 2649,
+            "false_alarms": 6203,
+            "correct_neg": 1382032
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.00063,
+            "pod": 0.4061,
+            "far": 0.7961,
+            "csi": 0.157,
+            "ets": 0.1566,
+            "hits": 359,
+            "misses": 525,
+            "false_alarms": 1402,
+            "correct_neg": 1390914
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 5e-05,
+            "pod": 0.2162,
+            "far": 0.9385,
+            "csi": 0.0503,
+            "ets": 0.0503,
+            "hits": 16,
+            "misses": 58,
+            "false_alarms": 244,
+            "correct_neg": 1392882
+          }
+        }
+      },
+      "fss": {
+        "raw_nwp": {
+          "25km": {
+            "fss": 0.3087,
+            "useful": false,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.4377,
+            "useful": false,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.5975,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.6933,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "qdm": {
+          "25km": {
+            "fss": 0.3712,
+            "useful": false,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.5297,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.7395,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.8632,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "varsh": {
+          "25km": {
+            "fss": 0.2826,
+            "useful": false,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.4243,
+            "useful": false,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.5995,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.6987,
+            "useful": true,
+            "usefulness_threshold": 0.5018,
+            "f_o": 0.003564,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        }
+      }
+    },
+    "orographic": {
+      "n_days": 11,
+      "models": {
+        "raw_nwp": {
+          "continuous": {
+            "rmse": 1.4282,
+            "mae": 0.2001,
+            "bias": 0.1334,
+            "corr": 0.9956,
+            "wet_bias": -0.0002,
+            "n_points": 191565
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06764,
+            "pod": 0.9883,
+            "far": 0.0224,
+            "csi": 0.9665,
+            "ets": 0.9641,
+            "hits": 12806,
+            "misses": 151,
+            "false_alarms": 293,
+            "correct_neg": 178315
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02416,
+            "pod": 0.9676,
+            "far": 0.0826,
+            "csi": 0.8901,
+            "ets": 0.8874,
+            "hits": 4478,
+            "misses": 150,
+            "false_alarms": 403,
+            "correct_neg": 186534
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00337,
+            "pod": 0.9581,
+            "far": 0.238,
+            "csi": 0.7375,
+            "ets": 0.7366,
+            "hits": 618,
+            "misses": 27,
+            "false_alarms": 193,
+            "correct_neg": 190727
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.0008,
+            "pod": 1.0,
+            "far": 0.3678,
+            "csi": 0.6322,
+            "ets": 0.6319,
+            "hits": 153,
+            "misses": 0,
+            "false_alarms": 89,
+            "correct_neg": 191323
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 6e-05,
+            "pod": 1.0,
+            "far": 0.625,
+            "csi": 0.375,
+            "ets": 0.375,
+            "hits": 12,
+            "misses": 0,
+            "false_alarms": 20,
+            "correct_neg": 191533
+          }
+        },
+        "qdm": {
+          "continuous": {
+            "rmse": 0.8626,
+            "mae": 0.1228,
+            "bias": -0.0019,
+            "corr": 0.9951,
+            "wet_bias": -0.0005,
+            "n_points": 191565
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06764,
+            "pod": 0.9731,
+            "far": 0.0054,
+            "csi": 0.968,
+            "ets": 0.9657,
+            "hits": 12608,
+            "misses": 349,
+            "false_alarms": 68,
+            "correct_neg": 178540
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02416,
+            "pod": 0.9382,
+            "far": 0.028,
+            "csi": 0.9135,
+            "ets": 0.9115,
+            "hits": 4342,
+            "misses": 286,
+            "false_alarms": 125,
+            "correct_neg": 186812
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00337,
+            "pod": 0.9457,
+            "far": 0.1172,
+            "csi": 0.8402,
+            "ets": 0.8397,
+            "hits": 610,
+            "misses": 35,
+            "false_alarms": 81,
+            "correct_neg": 190839
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.0008,
+            "pod": 0.9935,
+            "far": 0.1915,
+            "csi": 0.8042,
+            "ets": 0.8041,
+            "hits": 152,
+            "misses": 1,
+            "false_alarms": 36,
+            "correct_neg": 191376
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 6e-05,
+            "pod": 1.0,
+            "far": 0.2941,
+            "csi": 0.7059,
+            "ets": 0.7059,
+            "hits": 12,
+            "misses": 0,
+            "false_alarms": 5,
+            "correct_neg": 191548
+          }
+        },
+        "varsh": {
+          "continuous": {
+            "rmse": 2.1784,
+            "mae": 0.3011,
+            "bias": 0.2603,
+            "corr": 0.9951,
+            "wet_bias": -0.0001,
+            "n_points": 191565
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.06764,
+            "pod": 0.9932,
+            "far": 0.0417,
+            "csi": 0.9521,
+            "ets": 0.9486,
+            "hits": 12869,
+            "misses": 88,
+            "false_alarms": 560,
+            "correct_neg": 178048
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.02416,
+            "pod": 0.981,
+            "far": 0.1303,
+            "csi": 0.8553,
+            "ets": 0.8518,
+            "hits": 4540,
+            "misses": 88,
+            "false_alarms": 680,
+            "correct_neg": 186257
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00337,
+            "pod": 0.9643,
+            "far": 0.3348,
+            "csi": 0.6493,
+            "ets": 0.6481,
+            "hits": 622,
+            "misses": 23,
+            "false_alarms": 313,
+            "correct_neg": 190607
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 0.0008,
+            "pod": 1.0,
+            "far": 0.4934,
+            "csi": 0.5066,
+            "ets": 0.5062,
+            "hits": 153,
+            "misses": 0,
+            "false_alarms": 149,
+            "correct_neg": 191263
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 6e-05,
+            "pod": 1.0,
+            "far": 0.7333,
+            "csi": 0.2667,
+            "ets": 0.2666,
+            "hits": 12,
+            "misses": 0,
+            "false_alarms": 33,
+            "correct_neg": 191520
+          }
+        }
+      },
+      "fss": {
+        "raw_nwp": {
+          "25km": {
+            "fss": 0.8522,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.9095,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.9346,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.9448,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "qdm": {
+          "25km": {
+            "fss": 0.9188,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.9521,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.9675,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.9756,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "varsh": {
+          "25km": {
+            "fss": 0.7935,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.8692,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.8991,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.9076,
+            "useful": true,
+            "usefulness_threshold": 0.5017,
+            "f_o": 0.003367,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        }
+      }
+    },
+    "western_disturbance": {
+      "n_days": 32,
+      "models": {
+        "raw_nwp": {
+          "continuous": {
+            "rmse": 2.2212,
+            "mae": 1.2682,
+            "bias": 1.1744,
+            "corr": 0.887,
+            "wet_bias": 0.4511,
+            "n_points": 557280
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.03129,
+            "pod": 0.8838,
+            "far": 0.8785,
+            "csi": 0.1196,
+            "ets": 0.0916,
+            "hits": 15413,
+            "misses": 2027,
+            "false_alarms": 111483,
+            "correct_neg": 428357
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00893,
+            "pod": 0.9042,
+            "far": 0.1503,
+            "csi": 0.7795,
+            "ets": 0.7777,
+            "hits": 4500,
+            "misses": 477,
+            "false_alarms": 796,
+            "correct_neg": 551507
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00051,
+            "pod": 0.9301,
+            "far": 0.283,
+            "csi": 0.6803,
+            "ets": 0.6802,
+            "hits": 266,
+            "misses": 20,
+            "false_alarms": 105,
+            "correct_neg": 556889
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 5e-05,
+            "pod": 1.0,
+            "far": 0.4,
+            "csi": 0.6,
+            "ets": 0.6,
+            "hits": 30,
+            "misses": 0,
+            "false_alarms": 20,
+            "correct_neg": 557230
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 0.0,
+            "pod": 0.0,
+            "far": 1.0,
+            "csi": 0.0,
+            "ets": 0.0,
+            "hits": 0,
+            "misses": 0,
+            "false_alarms": 1,
+            "correct_neg": 557279
+          }
+        },
+        "qdm": {
+          "continuous": {
+            "rmse": 1.8436,
+            "mae": 0.5236,
+            "bias": 0.0444,
+            "corr": 0.9012,
+            "wet_bias": 0.3643,
+            "n_points": 557280
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.03129,
+            "pod": 0.5952,
+            "far": 0.4442,
+            "csi": 0.4033,
+            "ets": 0.3895,
+            "hits": 10380,
+            "misses": 7060,
+            "false_alarms": 8296,
+            "correct_neg": 531544
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00893,
+            "pod": 0.3679,
+            "far": 0.0011,
+            "csi": 0.3677,
+            "ets": 0.3657,
+            "hits": 1831,
+            "misses": 3146,
+            "false_alarms": 2,
+            "correct_neg": 552301
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00051,
+            "pod": 0.2902,
+            "far": 0.0,
+            "csi": 0.2902,
+            "ets": 0.2901,
+            "hits": 83,
+            "misses": 203,
+            "false_alarms": 0,
+            "correct_neg": 556994
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 5e-05,
+            "pod": 0.3,
+            "far": 0.0,
+            "csi": 0.3,
+            "ets": 0.3,
+            "hits": 9,
+            "misses": 21,
+            "false_alarms": 0,
+            "correct_neg": 557250
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 0.0,
+            "pod": 0.0,
+            "far": 0.0,
+            "csi": 0.0,
+            "ets": 0.0,
+            "hits": 0,
+            "misses": 0,
+            "false_alarms": 0,
+            "correct_neg": 557280
+          }
+        },
+        "varsh": {
+          "continuous": {
+            "rmse": 1.7866,
+            "mae": 0.5281,
+            "bias": 0.0695,
+            "corr": 0.9012,
+            "wet_bias": 0.3684,
+            "n_points": 557280
+          },
+          "light": {
+            "threshold_mm": 2.5,
+            "obs_frequency": 0.03129,
+            "pod": 0.6092,
+            "far": 0.4723,
+            "csi": 0.3943,
+            "ets": 0.3798,
+            "hits": 10625,
+            "misses": 6815,
+            "false_alarms": 9509,
+            "correct_neg": 530331
+          },
+          "moderate": {
+            "threshold_mm": 15.6,
+            "obs_frequency": 0.00893,
+            "pod": 0.395,
+            "far": 0.002,
+            "csi": 0.3947,
+            "ets": 0.3926,
+            "hits": 1966,
+            "misses": 3011,
+            "false_alarms": 4,
+            "correct_neg": 552299
+          },
+          "heavy": {
+            "threshold_mm": 64.5,
+            "obs_frequency": 0.00051,
+            "pod": 0.3287,
+            "far": 0.0,
+            "csi": 0.3287,
+            "ets": 0.3286,
+            "hits": 94,
+            "misses": 192,
+            "false_alarms": 0,
+            "correct_neg": 556994
+          },
+          "very_heavy": {
+            "threshold_mm": 115.6,
+            "obs_frequency": 5e-05,
+            "pod": 0.3333,
+            "far": 0.0,
+            "csi": 0.3333,
+            "ets": 0.3333,
+            "hits": 10,
+            "misses": 20,
+            "false_alarms": 0,
+            "correct_neg": 557250
+          },
+          "extreme": {
+            "threshold_mm": 204.4,
+            "obs_frequency": 0.0,
+            "pod": 0.0,
+            "far": 0.0,
+            "csi": 0.0,
+            "ets": 0.0,
+            "hits": 0,
+            "misses": 0,
+            "false_alarms": 0,
+            "correct_neg": 557280
+          }
+        }
+      },
+      "fss": {
+        "raw_nwp": {
+          "25km": {
+            "fss": 0.8096,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.8234,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.8298,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.8331,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "qdm": {
+          "25km": {
+            "fss": 0.6064,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.6147,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.6189,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.6194,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        },
+        "varsh": {
+          "25km": {
+            "fss": 0.6118,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 25,
+            "scale_cells": 1
+          },
+          "50km": {
+            "fss": 0.6189,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 50,
+            "scale_cells": 2
+          },
+          "100km": {
+            "fss": 0.622,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 100,
+            "scale_cells": 4
+          },
+          "200km": {
+            "fss": 0.6225,
+            "useful": true,
+            "usefulness_threshold": 0.5003,
+            "f_o": 0.000513,
+            "scale_km": 200,
+            "scale_cells": 8
+          }
+        }
+      }
+    }
+  },
+  "baseline_ladder": {
+    "raw_nwp": {
+      "continuous": {
+        "rmse": 3.299,
+        "mae": 0.556,
+        "bias": 0.0641,
+        "corr": 0.8475,
+        "wet_bias": 0.0391,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8746,
+        "far": 0.4272,
+        "csi": 0.5293,
+        "ets": 0.5039,
+        "hits": 309367,
+        "misses": 44342,
+        "false_alarms": 230746,
+        "correct_neg": 5789435
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7675,
+        "far": 0.1616,
+        "csi": 0.6686,
+        "ets": 0.6634,
+        "hits": 94541,
+        "misses": 28638,
+        "false_alarms": 18224,
+        "correct_neg": 6232487
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.426,
+        "far": 0.2844,
+        "csi": 0.3643,
+        "ets": 0.3637,
+        "hits": 5085,
+        "misses": 6853,
+        "false_alarms": 2021,
+        "correct_neg": 6359931
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3878,
+        "far": 0.3396,
+        "csi": 0.3233,
+        "ets": 0.3232,
+        "hits": 883,
+        "misses": 1394,
+        "false_alarms": 454,
+        "correct_neg": 6371159
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3333,
+        "far": 0.425,
+        "csi": 0.2674,
+        "ets": 0.2674,
+        "hits": 69,
+        "misses": 138,
+        "false_alarms": 51,
+        "correct_neg": 6373632
+      },
+      "fss_100km_heavy": 0.7242
+    },
+    "decaying_avg": {
+      "continuous": {
+        "rmse": 3.2911,
+        "mae": 0.5827,
+        "bias": 0.0931,
+        "corr": 0.8483,
+        "wet_bias": 0.1447,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8759,
+        "far": 0.4171,
+        "csi": 0.5384,
+        "ets": 0.5135,
+        "hits": 309818,
+        "misses": 43891,
+        "false_alarms": 221699,
+        "correct_neg": 5798482
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7678,
+        "far": 0.1644,
+        "csi": 0.667,
+        "ets": 0.6618,
+        "hits": 94571,
+        "misses": 28608,
+        "false_alarms": 18602,
+        "correct_neg": 6232109
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.4273,
+        "far": 0.2841,
+        "csi": 0.3653,
+        "ets": 0.3647,
+        "hits": 5101,
+        "misses": 6837,
+        "false_alarms": 2024,
+        "correct_neg": 6359928
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3882,
+        "far": 0.3393,
+        "csi": 0.3237,
+        "ets": 0.3236,
+        "hits": 884,
+        "misses": 1393,
+        "false_alarms": 454,
+        "correct_neg": 6371159
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3333,
+        "far": 0.425,
+        "csi": 0.2674,
+        "ets": 0.2674,
+        "hits": 69,
+        "misses": 138,
+        "false_alarms": 51,
+        "correct_neg": 6373632
+      },
+      "fss_100km_heavy": 0.7248
+    },
+    "global_qdm": {
+      "continuous": {
+        "rmse": 3.37,
+        "mae": 0.5771,
+        "bias": 0.0087,
+        "corr": 0.8401,
+        "wet_bias": 0.0382,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8539,
+        "far": 0.4034,
+        "csi": 0.5413,
+        "ets": 0.517,
+        "hits": 302027,
+        "misses": 51682,
+        "false_alarms": 204242,
+        "correct_neg": 5815939
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.706,
+        "far": 0.1777,
+        "csi": 0.6126,
+        "ets": 0.6069,
+        "hits": 86970,
+        "misses": 36209,
+        "false_alarms": 18796,
+        "correct_neg": 6231915
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.4289,
+        "far": 0.285,
+        "csi": 0.3663,
+        "ets": 0.3657,
+        "hits": 5120,
+        "misses": 6818,
+        "false_alarms": 2041,
+        "correct_neg": 6359911
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3895,
+        "far": 0.3351,
+        "csi": 0.3256,
+        "ets": 0.3255,
+        "hits": 887,
+        "misses": 1390,
+        "false_alarms": 447,
+        "correct_neg": 6371166
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3816,
+        "far": 0.4476,
+        "csi": 0.2915,
+        "ets": 0.2915,
+        "hits": 79,
+        "misses": 128,
+        "false_alarms": 64,
+        "correct_neg": 6373619
+      },
+      "fss_100km_heavy": 0.6266
+    },
+    "global_emos": {
+      "continuous": {
+        "rmse": 3.3107,
+        "mae": 0.5605,
+        "bias": 0.001,
+        "corr": 0.846,
+        "wet_bias": 0.0372,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.8552,
+        "far": 0.4188,
+        "csi": 0.5291,
+        "ets": 0.5041,
+        "hits": 302490,
+        "misses": 51219,
+        "false_alarms": 217972,
+        "correct_neg": 5802209
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7258,
+        "far": 0.1521,
+        "csi": 0.6422,
+        "ets": 0.6369,
+        "hits": 89401,
+        "misses": 33778,
+        "false_alarms": 16038,
+        "correct_neg": 6234673
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.3991,
+        "far": 0.253,
+        "csi": 0.3516,
+        "ets": 0.351,
+        "hits": 4765,
+        "misses": 7173,
+        "false_alarms": 1614,
+        "correct_neg": 6360338
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.3628,
+        "far": 0.3041,
+        "csi": 0.3131,
+        "ets": 0.313,
+        "hits": 826,
+        "misses": 1451,
+        "false_alarms": 361,
+        "correct_neg": 6371252
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.3188,
+        "far": 0.2826,
+        "csi": 0.2833,
+        "ets": 0.2833,
+        "hits": 66,
+        "misses": 141,
+        "false_alarms": 26,
+        "correct_neg": 6373657
+      },
+      "fss_100km_heavy": 0.6811
+    },
+    "varsh_ai": {
+      "continuous": {
+        "rmse": 3.964,
+        "mae": 0.5895,
+        "bias": 0.1643,
+        "corr": 0.8116,
+        "wet_bias": 0.0317,
+        "n_points": 6373890
+      },
+      "light": {
+        "threshold_mm": 2.5,
+        "obs_frequency": 0.05549,
+        "pod": 0.876,
+        "far": 0.3068,
+        "csi": 0.6313,
+        "ets": 0.6116,
+        "hits": 309836,
+        "misses": 43873,
+        "false_alarms": 137104,
+        "correct_neg": 5883077
+      },
+      "moderate": {
+        "threshold_mm": 15.6,
+        "obs_frequency": 0.01933,
+        "pod": 0.7975,
+        "far": 0.2632,
+        "csi": 0.6207,
+        "ets": 0.6144,
+        "hits": 98237,
+        "misses": 24942,
+        "false_alarms": 35098,
+        "correct_neg": 6215613
+      },
+      "heavy": {
+        "threshold_mm": 64.5,
+        "obs_frequency": 0.00187,
+        "pod": 0.5379,
+        "far": 0.5041,
+        "csi": 0.3478,
+        "ets": 0.3469,
+        "hits": 6422,
+        "misses": 5516,
+        "false_alarms": 6527,
+        "correct_neg": 6355425
+      },
+      "very_heavy": {
+        "threshold_mm": 115.6,
+        "obs_frequency": 0.00036,
+        "pod": 0.5033,
+        "far": 0.5754,
+        "csi": 0.2992,
+        "ets": 0.299,
+        "hits": 1146,
+        "misses": 1131,
+        "false_alarms": 1553,
+        "correct_neg": 6370060
+      },
+      "extreme": {
+        "threshold_mm": 204.4,
+        "obs_frequency": 3e-05,
+        "pod": 0.4444,
+        "far": 0.7514,
+        "csi": 0.1897,
+        "ets": 0.1897,
+        "hits": 92,
+        "misses": 115,
+        "false_alarms": 278,
+        "correct_neg": 6373405
+      },
+      "fss_100km_heavy": 0.6822
+    }
+  },
+  "baseline_meta": {
+    "decaying_average": {
+      "w": 0.05,
+      "final_bias": 0.0
+    },
+    "emos": {
+      "a": -0.08892920588756034,
+      "b": 1.0097971996842545,
+      "sigma": 0.40487839285333715
+    },
+    "global_qdm": {
+      "n_quantiles": 100
+    }
+  },
+  "lead_time": {
+    "lead_24h": {
+      "lead_hours": 24,
+      "lead_day": 1,
+      "nwp": {
+        "continuous": {
+          "rmse": 0.878,
+          "mae": 0.2047,
+          "bias": 0.1976,
+          "corr": 0.7089,
+          "wet_bias": 0.0753,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.6,
+          "far": 0.3333,
+          "csi": 0.4615,
+          "ets": 0.4615,
+          "hits": 6,
+          "misses": 4,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.9625,
+          "far": 0.2116,
+          "csi": 0.7649,
+          "ets": 0.7648,
+          "hits": 488,
+          "misses": 19,
+          "false_alarms": 131,
+          "correct_neg": 870112
+        }
+      },
+      "ltc": {
+        "continuous": {
+          "rmse": 0.8603,
+          "mae": 0.1982,
+          "bias": 0.1906,
+          "corr": 0.7141,
+          "wet_bias": 0.0732,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.6,
+          "far": 0.3333,
+          "csi": 0.4615,
+          "ets": 0.4615,
+          "hits": 6,
+          "misses": 4,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.9586,
+          "far": 0.2085,
+          "csi": 0.7654,
+          "ets": 0.7652,
+          "hits": 486,
+          "misses": 21,
+          "false_alarms": 128,
+          "correct_neg": 870115
+        }
+      },
+      "estimated_drift_bias_mm": 0.079
+    },
+    "lead_48h": {
+      "lead_hours": 48,
+      "lead_day": 2,
+      "nwp": {
+        "continuous": {
+          "rmse": 1.7096,
+          "mae": 0.9443,
+          "bias": 0.9143,
+          "corr": 0.3685,
+          "wet_bias": 0.4954,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.2,
+          "far": 0.6,
+          "csi": 0.1538,
+          "ets": 0.1538,
+          "hits": 2,
+          "misses": 8,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.6036,
+          "far": 0.3831,
+          "csi": 0.439,
+          "ets": 0.4388,
+          "hits": 306,
+          "misses": 201,
+          "false_alarms": 190,
+          "correct_neg": 870053
+        }
+      },
+      "ltc": {
+        "continuous": {
+          "rmse": 1.6613,
+          "mae": 0.8979,
+          "bias": 0.8672,
+          "corr": 0.3738,
+          "wet_bias": 0.4778,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.2,
+          "far": 0.6,
+          "csi": 0.1538,
+          "ets": 0.1538,
+          "hits": 2,
+          "misses": 8,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.6036,
+          "far": 0.3768,
+          "csi": 0.4422,
+          "ets": 0.442,
+          "hits": 306,
+          "misses": 201,
+          "false_alarms": 185,
+          "correct_neg": 870058
+        }
+      },
+      "estimated_drift_bias_mm": 0.091
+    },
+    "lead_72h": {
+      "lead_hours": 72,
+      "lead_day": 3,
+      "nwp": {
+        "continuous": {
+          "rmse": 3.0555,
+          "mae": 1.7252,
+          "bias": 1.672,
+          "corr": 0.0967,
+          "wet_bias": 0.494,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 1.0,
+          "csi": 0.0,
+          "ets": -0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.1617,
+          "far": 0.8456,
+          "csi": 0.0858,
+          "ets": 0.0855,
+          "hits": 82,
+          "misses": 425,
+          "false_alarms": 449,
+          "correct_neg": 869794
+        }
+      },
+      "ltc": {
+        "continuous": {
+          "rmse": 2.9983,
+          "mae": 1.6724,
+          "bias": 1.6187,
+          "corr": 0.0974,
+          "wet_bias": 0.4837,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 1.0,
+          "csi": 0.0,
+          "ets": -0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 3,
+          "correct_neg": 870737
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.1617,
+          "far": 0.8429,
+          "csi": 0.0866,
+          "ets": 0.0863,
+          "hits": 82,
+          "misses": 425,
+          "false_alarms": 440,
+          "correct_neg": 869803
+        }
+      },
+      "estimated_drift_bias_mm": 0.105
+    },
+    "lead_96h": {
+      "lead_hours": 96,
+      "lead_day": 4,
+      "nwp": {
+        "continuous": {
+          "rmse": 4.3931,
+          "mae": 2.4962,
+          "bias": 2.442,
+          "corr": 0.0536,
+          "wet_bias": 0.4908,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 1.0,
+          "csi": 0.0,
+          "ets": -0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 1,
+          "correct_neg": 870739
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.142,
+          "far": 0.9852,
+          "csi": 0.0136,
+          "ets": 0.0131,
+          "hits": 72,
+          "misses": 435,
+          "false_alarms": 4777,
+          "correct_neg": 865466
+        }
+      },
+      "ltc": {
+        "continuous": {
+          "rmse": 4.3261,
+          "mae": 2.436,
+          "bias": 2.3812,
+          "corr": 0.0538,
+          "wet_bias": 0.4829,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 1.0,
+          "csi": 0.0,
+          "ets": -0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 1,
+          "correct_neg": 870739
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.1381,
+          "far": 0.9848,
+          "csi": 0.0139,
+          "ets": 0.0134,
+          "hits": 70,
+          "misses": 437,
+          "false_alarms": 4531,
+          "correct_neg": 865712
+        }
+      },
+      "estimated_drift_bias_mm": 0.12
+    },
+    "lead_120h": {
+      "lead_hours": 120,
+      "lead_day": 5,
+      "nwp": {
+        "continuous": {
+          "rmse": 5.7775,
+          "mae": 3.2836,
+          "bias": 3.2249,
+          "corr": 0.0246,
+          "wet_bias": 0.49,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 0.0,
+          "csi": 0.0,
+          "ets": 0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 0,
+          "correct_neg": 870740
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.1598,
+          "far": 0.9966,
+          "csi": 0.0034,
+          "ets": 0.0028,
+          "hits": 81,
+          "misses": 426,
+          "false_alarms": 23565,
+          "correct_neg": 846678
+        }
+      },
+      "ltc": {
+        "continuous": {
+          "rmse": 5.7001,
+          "mae": 3.2145,
+          "bias": 3.1553,
+          "corr": 0.0247,
+          "wet_bias": 0.4832,
+          "n_points": 870750
+        },
+        "heavy": {
+          "threshold_mm": 64.5,
+          "obs_frequency": 1e-05,
+          "pod": 0.0,
+          "far": 0.0,
+          "csi": 0.0,
+          "ets": 0.0,
+          "hits": 0,
+          "misses": 10,
+          "false_alarms": 0,
+          "correct_neg": 870740
+        },
+        "moderate": {
+          "threshold_mm": 15.6,
+          "obs_frequency": 0.00058,
+          "pod": 0.1558,
+          "far": 0.9965,
+          "csi": 0.0034,
+          "ets": 0.0028,
+          "hits": 79,
+          "misses": 428,
+          "false_alarms": 22694,
+          "correct_neg": 847549
+        }
+      },
+      "estimated_drift_bias_mm": 0.138
+    }
+  },
+  "lead_corrector_params": {
+    "alpha": 0.14,
+    "bias_lead1": 0.07901471108198166,
+    "lead_bias_curve": {
+      "lead_24h": 0.079,
+      "lead_48h": 0.091,
+      "lead_72h": 0.105,
+      "lead_96h": 0.12,
+      "lead_120h": 0.138
+    }
+  }
+}

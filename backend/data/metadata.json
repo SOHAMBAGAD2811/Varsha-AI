@@ -1,0 +1,27 @@
+{
+  "n_samples": 2000,
+  "n_regimes": 5,
+  "regimes": [
+    "active",
+    "break",
+    "depression",
+    "orographic",
+    "western_disturbance"
+  ],
+  "n_channels": 5,
+  "channel_names": [
+    "MSLP",
+    "850U",
+    "850V",
+    "TCWV",
+    "500Z"
+  ],
+  "lat_grid": 30,
+  "lon_grid": 40,
+  "n_districts": 50,
+  "thresholds": {
+    "light": 10.0,
+    "heavy": 64.5,
+    "very_heavy": 115.5
+  }
+}
